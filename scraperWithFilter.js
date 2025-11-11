@@ -110,9 +110,15 @@ const parser = new Parser(); // move parser definition here
         if (allTenders.length > 0) {
             const fields = ['title', 'publishDate', 'detailUrl', 'inquiryDeadline', 'bidDeadline', 'keyword'];
             const finalParser = new Parser({ fields });
-            fs.writeFileSync("tenderData/tenders_all.csv", '\uFEFF' + finalParser.parse(allTenders), "utf8");
-            fs.writeFileSync("tenderData/tenders_all.json", JSON.stringify(allTenders, null, 2));
-            console.log("✅ Scraping complete! Total tenders scraped:", allTenders.length);
+            const allTendersMap = new Map();
+            allTenders.forEach(t => {
+                allTendersMap.set(t.detailUrl, t);
+            });
+
+            const allTendersUnique = Array.from(allTendersMap.values());
+            fs.writeFileSync("tenderData/tenders_all.csv", '\uFEFF' + finalParser.parse(allTendersUnique), "utf8");
+            fs.writeFileSync("tenderData/tenders_all.json", JSON.stringify(allTendersUnique, null, 2));
+            console.log("✅ Scraping complete! Total tenders scraped:", allTendersUnique.length);
 
             //Create another JSON and CSV file with current and previous data combined
             // The logic is to read the previous file if it exists, then get those element which match current and previous date
@@ -141,10 +147,21 @@ const parser = new Parser(); // move parser definition here
             const yesterdayStr = formatDateISO(yesterday);
 
             // Filter tenders for today or yesterday that haven't been sent
-            const recentTenders = allTenders.filter(t =>
+            const recentTendersRaw = allTenders.filter(t =>
                 (t.publishDate === todayStr || t.publishDate === yesterdayStr) &&
                 !sentTenders.some(sent => sent.detailUrl === t.detailUrl)
             );
+
+            // Remove duplicates by detailUrl
+            const recentTendersMap = new Map();
+            recentTendersRaw.forEach(t => {
+                recentTendersMap.set(t.detailUrl, t);
+            });
+
+            const recentTenders = Array.from(recentTendersMap.values());
+
+            // ✅ Sort by date descending
+            recentTenders.sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate));
 
             console.log(`ℹ️ Found ${recentTenders.length} tenders from today or yesterday (excluding already sent)`);
 
