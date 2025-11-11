@@ -1,0 +1,24 @@
+const fs = require('fs');
+
+function filterTendersByKeywords(keywords) {
+  // Step 1: Read the JSON file
+  const data = JSON.parse(fs.readFileSync('tenders_all_2.json', 'utf-8'));
+
+  // Step 2: Filter tenders using keywords
+  const filtered = data.filter(tender =>
+    keywords.some(keyword =>
+      tender.title && tender.title.toLowerCase().includes(keyword.toLowerCase())
+    )
+  );
+
+  // Step 3: Save filtered data (optional)
+  fs.writeFileSync('filtered_tenders.json', JSON.stringify(filtered, null, 2));
+
+  console.log(`✅ Found ${filtered.length} matching tenders.`);
+  return filtered;
+}
+
+// Example usage:
+const keywords = ["ذكي", "health", "school", "road", "مدينة ذكية", "مرور", "توريد"];
+filterTendersByKeywords(keywords);
+
