@@ -5,8 +5,8 @@ const path = require("path");
 // Paths
 const CREDENTIALS_PATH = "credentials.json";
 const TOKEN_PATH = "token.json";
-const CSV_FILE_PATH = "tenderData/tenders_recent.csv";
-const JSON_FILE_PATH = "tenderData/tenders_recent.json";
+const CSV_FILE_PATH = "tenders_translated.csv";
+const JSON_FILE_PATH = "tenders_translated.json";
 
 // Load credentials and token
 const credentials = JSON.parse(fs.readFileSync(CREDENTIALS_PATH));

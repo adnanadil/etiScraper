@@ -3,6 +3,9 @@ const fs = require("fs");
 const { Parser } = require("json2csv");
 const parser = new Parser(); // move parser definition here
 
+const keywords = require("./keywords"); // ✅ require the array
+
+
 (async () => {
   const browser = await puppeteer.launch({ headless: true, defaultViewport: null });
   const page = await browser.newPage();
@@ -41,7 +44,7 @@ const parser = new Parser(); // move parser definition here
             const options = select.querySelectorAll('option');
             const lastOption = options[options.length - 1]; // get last option
             if (lastOption) {
-                lastOption.selected = true; // select it
+                lastOption.selected = false; // select it
                 select.dispatchEvent(new Event('change')); // trigger change event
             }
         });
@@ -68,7 +71,7 @@ const parser = new Parser(); // move parser definition here
         const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
         // Loop through keywords
-        const keywords = ["ذكي", "health", "school", "road", "مدينة ذكية", "مرور", "اصلاح"] ;
+        // const keywords = ["ذكي", "health", "school", "road", "مدينة ذكية", "مرور", "اصلاح"] ;
         for (const keyword of keywords) {
             if (searchBox) {
                 console.log(`Filling search box with keyword: ${keyword}`);
