@@ -29,7 +29,7 @@ async function scraperWithFilter () {
   
   //Choosing 24 items per page from the dropdown
   // 0️⃣ Navigate to the page first
-  await page.goto("https://tenders.etimad.sa/Tender/AllTendersForVisitor", { waitUntil: "networkidle2" });
+//   await page.goto("https://tenders.etimad.sa/Tender/AllTendersForVisitor", { waitUntil: "networkidle2" });
   
   
   const allTenders = [];
@@ -40,13 +40,12 @@ async function scraperWithFilter () {
     if (itemsDropdown) {
         console.log('Dropdown found, selecting last option...');
 
-        // Need to check this part of the code again
         await page.evaluate(() => {
             const select = document.querySelector('#itemsPerPage');
             const options = select.querySelectorAll('option');
             const lastOption = options[options.length - 1]; // get last option
             if (lastOption) {
-                lastOption.selected = false; // select it
+                lastOption.selected = true; // select it
                 select.dispatchEvent(new Event('change')); // trigger change event
             }
         });
@@ -56,6 +55,23 @@ async function scraperWithFilter () {
     } else {
         console.log('❌ Items dropdown not found');
     }
+
+    /* Old Dropdown logic - commented out
+    // New logic to choose 24 items per page
+
+    // Wait for dropdown
+    await page.waitForSelector("select.form-control", { timeout: 5000 });
+
+    console.log("Dropdown found, selecting 24 items...");
+
+    // Select "24" option directly
+    await page.select("select.form-control", "24");
+
+    // Wait for reload
+    await page.waitForNavigation({ waitUntil: "networkidle2" }).catch(() => null);
+
+    await page.waitForTimeout(2000); // extra wait
+    */
 
     // Put all of the scraping logic inside a new loop of filter.
     

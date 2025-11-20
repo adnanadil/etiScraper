@@ -64,7 +64,8 @@ const automate = async () => {
     console.log(new Date().toLocaleString(), "⏰ Starting tender workflow...");
     await scraperWithFilter();
     await translateTenderTitles();
-    await sendEmail(["adnanadil529@gmail.com", "adnan.adil@stengg.com", "leem.sauhwee@stengg.com"]);
+    // await sendEmail(["adnanadil529@gmail.com", "adnan.adil@stengg.com", "leem.sauhwee@stengg.com"]);
+    await sendEmail(["adnanadil529@gmail.com", "adnan.adil@stengg.com"]);
     console.log(new Date().toLocaleString(), "✅ Tender workflow completed successfully");
   } catch (err) {
     console.error(new Date().toLocaleString(), "❌ Error in tender workflow:", err);

@@ -1,14 +1,14 @@
-const keywords = [
-"ذكي", 
-"الذكاء", 
-"مرورية", 
-"مرور", 
-"منصة" , 
-"اسطول" , 
-"اشارة" , 
-"اشارات" , 
-"انارة" , 
-"تقاطع", 
-]
+const keywords = {
+  "ذكي": "smart",
+  "الذكاء": "intelligence",
+  "مرورية": "traffic-related",
+  "مرور": "traffic",
+  "منصة": "platform",
+  "اسطول": "fleet",
+  "اشارة": "signal",
+  "اشارات": "signals",
+  "انارة": "lighting",
+  "تقاطع": "intersection"
+};
 
-module.exports = keywords;
+export default keywords;
