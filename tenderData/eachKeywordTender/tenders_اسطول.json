@@ -1,7 +1,24 @@
 [
   {
+    "title": "نظام تتبع الأسطول للسيارات",
+    "publishDate": "2025-11-20",
+    "tenderOpenDays": 21,
+    "orgName": "صندوق التنمية الزراعية",
+    "subDeptName": "ادارة المشتريات والعقود",
+    "bidValue": "1000",
+    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=ylS9syd*@@**xvT1gkl1DV3Kqw==",
+    "inquiryDeadline": "2025-11-30",
+    "bidDeadline": "2025-12-10",
+    "bidDeadlineTime": "09:59",
+    "bidDeadlineDaysLeft": 20,
+    "inquiryDeadlineDaysLeft": 10,
+    "keyword": "اسطول",
+    "keywordEng": "fleet"
+  },
+  {
     "title": "تحسين وتطوير عدد 4 دورات مياة بمبنى قيادة الاسطول الغربي بقاعدة الملك فيصل البحرية بجدة",
     "publishDate": "2025-11-06",
+    "tenderOpenDays": 17,
     "orgName": "القوات البحرية",
     "subDeptName": "مركز التشغيل والصيانة بقاعدة الملك فيصل البحرية بجدة",
     "bidValue": "200",
@@ -9,13 +26,15 @@
     "inquiryDeadline": "2025-11-16",
     "bidDeadline": "2025-11-22",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 5,
-    "inquiryDeadlineDaysLeft": -1,
-    "keyword": "اسطول"
+    "bidDeadlineDaysLeft": 2,
+    "inquiryDeadlineDaysLeft": -4,
+    "keyword": "اسطول",
+    "keywordEng": "fleet"
   },
   {
     "title": "توريد أجهزة تتبع المركبات إدارة الاسطول شاملة الخدمات المدارة والصيانة",
     "publishDate": "2025-10-06",
+    "tenderOpenDays": 32,
     "orgName": "القوات الخاصة للأمن البيئي",
     "subDeptName": "قيادة القوات الخاصة للأمن البيئي",
     "bidValue": "1000",
@@ -23,13 +42,15 @@
     "inquiryDeadline": "2025-10-24",
     "bidDeadline": "2025-11-06",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -11,
-    "inquiryDeadlineDaysLeft": -24,
-    "keyword": "اسطول"
+    "bidDeadlineDaysLeft": -14,
+    "inquiryDeadlineDaysLeft": -27,
+    "keyword": "اسطول",
+    "keywordEng": "fleet"
   },
   {
     "title": "توريد وتركيب نظام التزويد المستمر للطاقة (UPS) وقواطع فرعية بمركز عمليات الاسطول الغربي بقاعدة الملك ...",
     "publishDate": "2025-09-02",
+    "tenderOpenDays": 24,
     "orgName": "القوات البحرية",
     "subDeptName": "مركز التشغيل والصيانة بقاعدة الملك فيصل البحرية بجدة",
     "bidValue": "500",
@@ -37,13 +58,15 @@
     "inquiryDeadline": "2025-09-24",
     "bidDeadline": "2025-09-25",
     "bidDeadlineTime": "08:00",
-    "bidDeadlineDaysLeft": -53,
-    "inquiryDeadlineDaysLeft": -54,
-    "keyword": "اسطول"
+    "bidDeadlineDaysLeft": -56,
+    "inquiryDeadlineDaysLeft": -57,
+    "keyword": "اسطول",
+    "keywordEng": "fleet"
   },
   {
     "title": "توريد وتركيب مولدات طوارئ بمبنى قيادة الاسطول الغربي بقاعدة الملك فيصل البحرية بجدة",
     "publishDate": "2025-09-02",
+    "tenderOpenDays": 24,
     "orgName": "القوات البحرية",
     "subDeptName": "مركز التشغيل والصيانة بقاعدة الملك فيصل البحرية بجدة",
     "bidValue": "1500",
@@ -51,8 +74,9 @@
     "inquiryDeadline": "2025-09-24",
     "bidDeadline": "2025-09-25",
     "bidDeadlineTime": "08:00",
-    "bidDeadlineDaysLeft": -53,
-    "inquiryDeadlineDaysLeft": -54,
-    "keyword": "اسطول"
+    "bidDeadlineDaysLeft": -56,
+    "inquiryDeadlineDaysLeft": -57,
+    "keyword": "اسطول",
+    "keywordEng": "fleet"
   }
 ]

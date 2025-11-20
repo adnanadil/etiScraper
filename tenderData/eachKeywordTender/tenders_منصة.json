@@ -1,7 +1,104 @@
 [
   {
+    "title": "فيديوهات توعوية قصيرة",
+    "publishDate": "2025-11-20",
+    "tenderOpenDays": 20,
+    "orgName": "الهيئة السعودية للمواصفات والمقاييس والجودة",
+    "subDeptName": "إدارة المنافسات والعقود",
+    "bidValue": "1500",
+    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=E9r7FaXZVrW6YCfky%20ImhA==",
+    "inquiryDeadline": "2025-11-25",
+    "bidDeadline": "2025-12-09",
+    "bidDeadlineTime": "09:59",
+    "bidDeadlineDaysLeft": 19,
+    "inquiryDeadlineDaysLeft": 5,
+    "keyword": "منصة",
+    "keywordEng": "platform"
+  },
+  {
+    "title": "مشروع تجديد رخص سيرفس ناو لمنصة خدماتي الداخلية",
+    "publishDate": "2025-11-19",
+    "tenderOpenDays": 32,
+    "orgName": "وزارة الموارد البشرية والتنمية الاجتماعية",
+    "subDeptName": "إدارة المشتريات",
+    "bidValue": "600",
+    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=TeAYIwyET6a3TR%203a3vHIg==",
+    "inquiryDeadline": "2025-12-09",
+    "bidDeadline": "2025-12-20",
+    "bidDeadlineTime": "09:59",
+    "bidDeadlineDaysLeft": 30,
+    "inquiryDeadlineDaysLeft": 19,
+    "keyword": "منصة",
+    "keywordEng": "platform"
+  },
+  {
+    "title": "التشغيل والصيانة لنظام الاتصالات الإدارية",
+    "publishDate": "2025-11-19",
+    "tenderOpenDays": 17,
+    "orgName": "وزارة الموارد البشرية والتنمية الاجتماعية",
+    "subDeptName": "إدارة المشتريات",
+    "bidValue": "600",
+    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=IeTDWETqc2PM5NwT1*@@**0qvw==",
+    "inquiryDeadline": "2025-11-29",
+    "bidDeadline": "2025-12-05",
+    "bidDeadlineTime": "09:59",
+    "bidDeadlineDaysLeft": 15,
+    "inquiryDeadlineDaysLeft": 9,
+    "keyword": "منصة",
+    "keywordEng": "platform"
+  },
+  {
+    "title": "تشغيل ودعم فني للمنصة الرقمية لاستثمار المواد الاعلامية",
+    "publishDate": "2025-11-18",
+    "tenderOpenDays": 34,
+    "orgName": "هيئة الإذاعة والتلفزيون",
+    "subDeptName": "الادارة المالية -  المشتريات",
+    "bidValue": "1000",
+    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=zRFP9U7WwtvrpyjmJ8fPbw==",
+    "inquiryDeadline": "2025-11-28",
+    "bidDeadline": "2025-12-21",
+    "bidDeadlineTime": "09:59",
+    "bidDeadlineDaysLeft": 31,
+    "inquiryDeadlineDaysLeft": 8,
+    "keyword": "منصة",
+    "keywordEng": "platform"
+  },
+  {
+    "title": "حملة إعلامية لتدشين الإرشاد المهني",
+    "publishDate": "2025-11-18",
+    "tenderOpenDays": 17,
+    "orgName": "صندوق تنمية الموارد البشرية",
+    "subDeptName": "هدف",
+    "bidValue": "1000",
+    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=cQANPzi1LBSiK5WBBBfnGA==",
+    "inquiryDeadline": "2025-11-28",
+    "bidDeadline": "2025-12-04",
+    "bidDeadlineTime": "09:59",
+    "bidDeadlineDaysLeft": 14,
+    "inquiryDeadlineDaysLeft": 8,
+    "keyword": "منصة",
+    "keywordEng": "platform"
+  },
+  {
+    "title": "تنفيذ نظام المنصة التدريبية الإلكتروني E- Learning",
+    "publishDate": "2025-11-18",
+    "tenderOpenDays": 17,
+    "orgName": "التجمع الصحي بمكة المكرمة",
+    "subDeptName": "المنافسات العامة بالتجمع الصحي",
+    "bidValue": "1000",
+    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=8VS36kZcx7OZc8rG5PX37g==",
+    "inquiryDeadline": "2025-11-28",
+    "bidDeadline": "2025-12-04",
+    "bidDeadlineTime": "09:59",
+    "bidDeadlineDaysLeft": 14,
+    "inquiryDeadlineDaysLeft": 8,
+    "keyword": "منصة",
+    "keywordEng": "platform"
+  },
+  {
     "title": "منافسة توفير سيرفرات حديثة لمنصة نموذج الرعاية بتجمع نجران الصحي",
     "publishDate": "2025-11-17",
+    "tenderOpenDays": 17,
     "orgName": "تجمع نجران الصحي",
     "subDeptName": "ادارة العقود والمشتريات",
     "bidValue": "600",
@@ -9,13 +106,15 @@
     "inquiryDeadline": "2025-11-27",
     "bidDeadline": "2025-12-03",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 16,
-    "inquiryDeadlineDaysLeft": 10,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 13,
+    "inquiryDeadlineDaysLeft": 7,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تجديد رخص النسخ الاحتياطي وحفظ البيانات لعام 2026",
     "publishDate": "2025-11-17",
+    "tenderOpenDays": 17,
     "orgName": "محمية الملك عبدالعزيز",
     "subDeptName": "محمية الملك عبدالعزيز",
     "bidValue": "1000",
@@ -23,13 +122,15 @@
     "inquiryDeadline": "2025-11-27",
     "bidDeadline": "2025-12-03",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 16,
-    "inquiryDeadlineDaysLeft": 10,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 13,
+    "inquiryDeadlineDaysLeft": 7,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "الحصول على رخصة التعاقد مع مزود خدمة لتقديم منصة متكاملة لتقييم المرشحين للوظائف من خلال اختبارات ال ...",
     "publishDate": "2025-11-13",
+    "tenderOpenDays": 8,
     "orgName": "جامعة الملك سعود بن عبد العزیز للعلوم الصحیة",
     "subDeptName": "ادارة الشراء المباشر بجامعة الملك سعود للعلوم الصحية",
     "bidValue": "200",
@@ -37,13 +138,15 @@
     "inquiryDeadline": "2025-11-16",
     "bidDeadline": "2025-11-20",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 3,
-    "inquiryDeadlineDaysLeft": -1,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 0,
+    "inquiryDeadlineDaysLeft": -4,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تجهيز منصة الحفل بمعهد تدريب السجون (25/26)",
     "publishDate": "2025-11-13",
+    "tenderOpenDays": 7,
     "orgName": "المديرية العامة للسجون",
     "subDeptName": "الادارة العامة للمنافسات والمشتريات",
     "bidValue": "200",
@@ -51,13 +154,15 @@
     "inquiryDeadline": "2025-11-16",
     "bidDeadline": "2025-11-19",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 2,
-    "inquiryDeadlineDaysLeft": -1,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -1,
+    "inquiryDeadlineDaysLeft": -4,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تطوير المرحلة الأولى من المركز الدبلوماسي الرقمي",
     "publishDate": "2025-11-13",
+    "tenderOpenDays": 17,
     "orgName": "وزارة الخارجية",
     "subDeptName": "الديوان العام  -  المشتريات",
     "bidValue": "1000",
@@ -65,13 +170,15 @@
     "inquiryDeadline": "2025-11-23",
     "bidDeadline": "2025-11-29",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 12,
-    "inquiryDeadlineDaysLeft": 6,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 9,
+    "inquiryDeadlineDaysLeft": 3,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع إنتاج 140 منتج تدريبي إلكتروني",
     "publishDate": "2025-11-12",
+    "tenderOpenDays": 33,
     "orgName": "معهد الادارة العامة",
     "subDeptName": "إدارة المشتريات",
     "bidValue": "3500",
@@ -79,27 +186,31 @@
     "inquiryDeadline": "2025-11-27",
     "bidDeadline": "2025-12-14",
     "bidDeadlineTime": "10:20",
-    "bidDeadlineDaysLeft": 27,
-    "inquiryDeadlineDaysLeft": 10,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 24,
+    "inquiryDeadlineDaysLeft": 7,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "التشغيل الدوري التقني وحوكمة العمليات",
     "publishDate": "2025-11-12",
-    "orgName": "الهيئة السعودية للمياه",
+    "tenderOpenDays": 19,
+    "orgName": "المؤسسة العامة لتحلية المياه المالحة",
     "subDeptName": "ادارة الشراء  -  قسم مشتريات الخدمات والمشاريع",
     "bidValue": "1000",
     "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=FuVWz3F6MD*@@**rrhUfe94YGQ==",
     "inquiryDeadline": "2025-11-22",
     "bidDeadline": "2025-11-30",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": 13,
-    "inquiryDeadlineDaysLeft": 5,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 10,
+    "inquiryDeadlineDaysLeft": 2,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تقديم خدمات احترافية لصيانة وتشغيل وتطوير منصة إثرائي",
     "publishDate": "2025-11-11",
+    "tenderOpenDays": 35,
     "orgName": "معهد الادارة العامة",
     "subDeptName": "إدارة المشتريات",
     "bidValue": "3500",
@@ -107,13 +218,15 @@
     "inquiryDeadline": "2025-11-21",
     "bidDeadline": "2025-12-15",
     "bidDeadlineTime": "10:20",
-    "bidDeadlineDaysLeft": 28,
-    "inquiryDeadlineDaysLeft": 4,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 25,
+    "inquiryDeadlineDaysLeft": 1,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تسديد رسوم حساب مجلس الضمان الصحي في منصة أكس",
     "publishDate": "2025-11-11",
+    "tenderOpenDays": 6,
     "orgName": "مجلس الضمان الصحي",
     "subDeptName": "إدارة العقود والمشتريات",
     "bidValue": "200",
@@ -121,13 +234,15 @@
     "inquiryDeadline": "2025-11-12",
     "bidDeadline": "2025-11-16",
     "bidDeadlineTime": "11:00",
-    "bidDeadlineDaysLeft": -1,
-    "inquiryDeadlineDaysLeft": -5,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -4,
+    "inquiryDeadlineDaysLeft": -8,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "الاشتراك في منصة SciVal لدعم الأداء البحثي والتصنيفات العالمية",
     "publishDate": "2025-11-11",
+    "tenderOpenDays": 20,
     "orgName": "جامعة الامام محمد بن سعود",
     "subDeptName": "الادارة العامة للمشتريات والمنافسات",
     "bidValue": "1000",
@@ -135,13 +250,15 @@
     "inquiryDeadline": "2025-11-21",
     "bidDeadline": "2025-11-30",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 13,
-    "inquiryDeadlineDaysLeft": 4,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 10,
+    "inquiryDeadlineDaysLeft": 1,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "الاشتراك في منصة لقواعد المعلومات البحثية باللغة الأجنبية المتخصصة",
     "publishDate": "2025-11-10",
+    "tenderOpenDays": 17,
     "orgName": "هيئة تقويم التعليم",
     "subDeptName": "الادارة العامة للمشتريات والعقود",
     "bidValue": "1000",
@@ -149,13 +266,15 @@
     "inquiryDeadline": "2025-11-15",
     "bidDeadline": "2025-11-26",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 9,
-    "inquiryDeadlineDaysLeft": -2,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 6,
+    "inquiryDeadlineDaysLeft": -5,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تشغيل المؤتمر الصحفي الحكومي لعام 2025 المرحلة الثانية",
     "publishDate": "2025-11-06",
+    "tenderOpenDays": 17,
     "orgName": "وزارة الإعلام",
     "subDeptName": "الديوان العام  -  ادارة المشتريات",
     "bidValue": "1000",
@@ -163,13 +282,15 @@
     "inquiryDeadline": "2025-11-16",
     "bidDeadline": "2025-11-22",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 5,
-    "inquiryDeadlineDaysLeft": -1,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 2,
+    "inquiryDeadlineDaysLeft": -4,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تشغيل ودعم المنصة الإلكترونية الحالية لمركز التدريب العدلي",
     "publishDate": "2025-11-05",
+    "tenderOpenDays": 32,
     "orgName": "وزارة العدل",
     "subDeptName": "الديوان العام  -  إدارة المشتريات والعقود",
     "bidValue": "1000",
@@ -177,13 +298,15 @@
     "inquiryDeadline": "2025-11-22",
     "bidDeadline": "2025-12-06",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 19,
-    "inquiryDeadlineDaysLeft": 5,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 16,
+    "inquiryDeadlineDaysLeft": 2,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "الحملة الوطنية للعنوان الوطني",
     "publishDate": "2025-11-05",
+    "tenderOpenDays": 17,
     "orgName": "مؤسسة البريد السعودي",
     "subDeptName": "الإدارة العامة لسلاسل الامداد",
     "bidValue": "1000",
@@ -191,13 +314,15 @@
     "inquiryDeadline": "2025-11-15",
     "bidDeadline": "2025-11-21",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 4,
-    "inquiryDeadlineDaysLeft": -2,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 1,
+    "inquiryDeadlineDaysLeft": -5,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توفير وتركيب متطلبات الاتصال الآمن (منصة بروق) بالهيئة العامة للموانئ",
     "publishDate": "2025-11-04",
+    "tenderOpenDays": 41,
     "orgName": "الهيئة العامة للموانىء",
     "subDeptName": "إدارة المشتريات و العقود",
     "bidValue": "800",
@@ -205,13 +330,15 @@
     "inquiryDeadline": "2025-11-24",
     "bidDeadline": "2025-12-14",
     "bidDeadlineTime": "09:00",
-    "bidDeadlineDaysLeft": 27,
-    "inquiryDeadlineDaysLeft": 7,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 24,
+    "inquiryDeadlineDaysLeft": 4,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تامين اشتراك لمدة سنة على منصة zoom و plagscan لزوم اكاديمية الامير نايف",
     "publishDate": "2025-11-04",
+    "tenderOpenDays": 5,
     "orgName": "المديرية العامة لمكافحة المخدرات",
     "subDeptName": "إدارة المشتريات بالمديرية العامة لمكافحة المخدرات",
     "bidValue": "200",
@@ -219,13 +346,15 @@
     "inquiryDeadline": "2025-11-06",
     "bidDeadline": "2025-11-08",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -9,
-    "inquiryDeadlineDaysLeft": -11,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -12,
+    "inquiryDeadlineDaysLeft": -14,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "دعم وتطوير مواقع الهيئة ومنصة عيشها 2025",
     "publishDate": "2025-11-03",
+    "tenderOpenDays": 32,
     "orgName": "الهيئة العامة للترفيه",
     "subDeptName": "إدارة المشتريات  -  هيئة الترفيه",
     "bidValue": "5500",
@@ -233,13 +362,15 @@
     "inquiryDeadline": "2025-11-18",
     "bidDeadline": "2025-12-04",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 17,
-    "inquiryDeadlineDaysLeft": 1,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 14,
+    "inquiryDeadlineDaysLeft": -2,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "الحاجة لغسيل أصناف مخصصة لضيافة المنطقة والموافقة لطرحها بمنصة اعتماد حدود صلاحيات الشراء المباشر .",
     "publishDate": "2025-11-02",
+    "tenderOpenDays": 17,
     "orgName": "حرس الحدود",
     "subDeptName": "قيادة حرس الحدود بمنطقة تبوك",
     "bidValue": "200",
@@ -247,13 +378,15 @@
     "inquiryDeadline": "2025-11-12",
     "bidDeadline": "2025-11-18",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 1,
-    "inquiryDeadlineDaysLeft": -5,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -2,
+    "inquiryDeadlineDaysLeft": -8,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تجديد رخص منصة إدارة وحوكمة البيانات للمركز",
     "publishDate": "2025-10-30",
+    "tenderOpenDays": 25,
     "orgName": "المركز الوطني لإدارة النفايات",
     "subDeptName": "المركز الوطني لإدارة النفايات",
     "bidValue": "1000",
@@ -261,13 +394,15 @@
     "inquiryDeadline": "2025-11-17",
     "bidDeadline": "2025-11-23",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": 6,
-    "inquiryDeadlineDaysLeft": 0,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 3,
+    "inquiryDeadlineDaysLeft": -3,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تجديد الدعم على خوادم البيئة الاحتياطية لمنصة تقاضي",
     "publishDate": "2025-10-30",
+    "tenderOpenDays": 32,
     "orgName": "وزارة العدل",
     "subDeptName": "الديوان العام  -  إدارة المشتريات والعقود",
     "bidValue": "1000",
@@ -275,13 +410,15 @@
     "inquiryDeadline": "2025-11-09",
     "bidDeadline": "2025-11-30",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 13,
-    "inquiryDeadlineDaysLeft": -8,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 10,
+    "inquiryDeadlineDaysLeft": -11,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تجديد خدمات بحث الكترونية للكفاءات عبر منصة لنكدان LinkedIn",
     "publishDate": "2025-10-29",
+    "tenderOpenDays": 17,
     "orgName": "أكاديمية مهد الرياضية",
     "subDeptName": "أكاديمية مهد الرياضية  -  الرياض",
     "bidValue": "700",
@@ -289,27 +426,15 @@
     "inquiryDeadline": "2025-11-05",
     "bidDeadline": "2025-11-14",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -3,
-    "inquiryDeadlineDaysLeft": -12,
-    "keyword": "منصة"
-  },
-  {
-    "title": "اعداد وتوريد المتطلبات التقنية للاتصال المرئي الآمن (بروق)",
-    "publishDate": "2025-10-29",
-    "orgName": "مركز التأمين الصحي الوطني",
-    "subDeptName": "مركز التأمين الصحي الوطني",
-    "bidValue": "1000",
-    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=di7WzaBQyFYkXuwaVLh1FA==",
-    "inquiryDeadline": "2025-11-17",
-    "bidDeadline": "2025-11-19",
-    "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": 2,
-    "inquiryDeadlineDaysLeft": 0,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -6,
+    "inquiryDeadlineDaysLeft": -15,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع اشتراك منصة البيانات المالية والتحليلية",
     "publishDate": "2025-10-29",
+    "tenderOpenDays": 23,
     "orgName": "صندوق البنية التحتية الوطني",
     "subDeptName": "صندوق البنية التحتية الوطني",
     "bidValue": "500",
@@ -317,13 +442,15 @@
     "inquiryDeadline": "2025-11-17",
     "bidDeadline": "2025-11-20",
     "bidDeadlineTime": "12:00",
-    "bidDeadlineDaysLeft": 3,
-    "inquiryDeadlineDaysLeft": 0,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 0,
+    "inquiryDeadlineDaysLeft": -3,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تجديد الاشتراك في منصة إدارة البيانات",
     "publishDate": "2025-10-29",
+    "tenderOpenDays": 17,
     "orgName": "صندوق البيئة",
     "subDeptName": "الرئيسي",
     "bidValue": "500",
@@ -331,13 +458,15 @@
     "inquiryDeadline": "2025-11-08",
     "bidDeadline": "2025-11-14",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -3,
-    "inquiryDeadlineDaysLeft": -9,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -6,
+    "inquiryDeadlineDaysLeft": -12,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توريد وتخصيص منصة ذكاء اصطناعي توليدي",
     "publishDate": "2025-10-28",
+    "tenderOpenDays": 17,
     "orgName": "صندوق البيئة",
     "subDeptName": "الرئيسي",
     "bidValue": "500",
@@ -345,13 +474,15 @@
     "inquiryDeadline": "2025-11-07",
     "bidDeadline": "2025-11-13",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -4,
-    "inquiryDeadlineDaysLeft": -10,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -7,
+    "inquiryDeadlineDaysLeft": -13,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تجديد نظام النسخ الاحتياطي بالمركز الوطني لأبحاث وتطوير الزراعة المستدامة (استدامة)",
     "publishDate": "2025-10-28",
+    "tenderOpenDays": 24,
     "orgName": "المركز الوطني لابحاث وتطوير الزراعة المستدامة",
     "subDeptName": "المركز الوطني لابحاث وتطوير الزراعة المستدامة",
     "bidValue": "2000",
@@ -359,13 +490,15 @@
     "inquiryDeadline": "2025-11-19",
     "bidDeadline": "2025-11-20",
     "bidDeadlineTime": "13:00",
-    "bidDeadlineDaysLeft": 3,
-    "inquiryDeadlineDaysLeft": 2,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 1,
+    "inquiryDeadlineDaysLeft": -1,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تطوير و تقديم الدعم الفني للمنصة الوطنية للتواصل في حالات البلاغات النووية والإشعاعية",
     "publishDate": "2025-10-28",
+    "tenderOpenDays": 31,
     "orgName": "هيئة الرقابة النووية والإشعاعية",
     "subDeptName": "هيئة الرقابة النووية والاشعاعية",
     "bidValue": "5500",
@@ -373,13 +506,15 @@
     "inquiryDeadline": "2025-11-13",
     "bidDeadline": "2025-11-27",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": 10,
-    "inquiryDeadlineDaysLeft": -4,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 7,
+    "inquiryDeadlineDaysLeft": -7,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تجديد رخص نظام إدارة شاشات الإعلانات وشاشات حجز قاعات الاجتماعات",
     "publishDate": "2025-10-27",
+    "tenderOpenDays": 17,
     "orgName": "الهيئة العامة للصناعات العسكرية",
     "subDeptName": "الهيئة العامة للصناعات العسكرية",
     "bidValue": "1000",
@@ -387,13 +522,15 @@
     "inquiryDeadline": "2025-11-06",
     "bidDeadline": "2025-11-12",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -5,
-    "inquiryDeadlineDaysLeft": -11,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -8,
+    "inquiryDeadlineDaysLeft": -14,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع تجديد رخص المنصة الشاملة للهيئة العليا للأمن الصناعي",
     "publishDate": "2025-10-27",
+    "tenderOpenDays": 17,
     "orgName": "الهيئة العليا للأمن الصناعي",
     "subDeptName": "إدارة المشتريات",
     "bidValue": "500",
@@ -401,13 +538,15 @@
     "inquiryDeadline": "2025-11-06",
     "bidDeadline": "2025-11-12",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -5,
-    "inquiryDeadlineDaysLeft": -11,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -8,
+    "inquiryDeadlineDaysLeft": -14,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "خدمة تصنيع منصة اصلاح متحركة بالعجلات مقاوم للرياح و الامطار و الحرارة",
     "publishDate": "2025-10-26",
+    "tenderOpenDays": 5,
     "orgName": "القوات البحرية",
     "subDeptName": "مركز التموين البحري بالاسطول الغربي",
     "bidValue": "200",
@@ -415,27 +554,31 @@
     "inquiryDeadline": "2025-10-29",
     "bidDeadline": "2025-10-30",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -18,
-    "inquiryDeadlineDaysLeft": -19,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -21,
+    "inquiryDeadlineDaysLeft": -22,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "اشتراك في منصتي S&P و IHS Markit أو ما يعادلها",
     "publishDate": "2025-10-23",
+    "tenderOpenDays": 32,
     "orgName": "بنك التصدير والإستيراد السعودي",
     "subDeptName": "بنك التصدير والإستيراد السعودي (إدارة المشتريات والعقود)",
     "bidValue": "500",
     "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=tDx12HXB9J90EBo2xc5kgw==",
-    "inquiryDeadline": "2025-11-14",
-    "bidDeadline": "2025-11-20",
+    "inquiryDeadline": "2025-11-19",
+    "bidDeadline": "2025-11-23",
     "bidDeadlineTime": "10:00",
     "bidDeadlineDaysLeft": 3,
-    "inquiryDeadlineDaysLeft": -3,
-    "keyword": "منصة"
+    "inquiryDeadlineDaysLeft": -1,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توفير اشتراك في منصة إدارة النطاقات ونظام أسماء النطاقات (DNS) للمركز السعودي للشراكات الاستراتيجية ...",
     "publishDate": "2025-10-21",
+    "tenderOpenDays": 6,
     "orgName": "المركز السعودي للشراكات الاستراتيجية الدولية",
     "subDeptName": "الفرع الرئيسي",
     "bidValue": "200",
@@ -443,13 +586,15 @@
     "inquiryDeadline": "2025-10-22",
     "bidDeadline": "2025-10-26",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -22,
-    "inquiryDeadlineDaysLeft": -26,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -25,
+    "inquiryDeadlineDaysLeft": -29,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توريد التراخيص لنظام إدارة ربط الفروع بالهيئة",
     "publishDate": "2025-10-21",
+    "tenderOpenDays": 17,
     "orgName": "الهيئة السعودية لتنظيم الكهرباء",
     "subDeptName": "إدارة المشتريات والعقود",
     "bidValue": "1000",
@@ -457,27 +602,31 @@
     "inquiryDeadline": "2025-10-31",
     "bidDeadline": "2025-11-06",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -11,
-    "inquiryDeadlineDaysLeft": -17,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -14,
+    "inquiryDeadlineDaysLeft": -20,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تشغيل وصيانة وتطوير منصة التدريب والتعليم الالكتروني بوزارة الصحة المرحلة الثانية",
     "publishDate": "2025-10-21",
-    "orgName": "وزارة الصحة الديوان العام",
+    "tenderOpenDays": 31,
+    "orgName": "وزارة الصحه الديوان العام",
     "subDeptName": "ديوان الوزارة ، الإدارة العامة للعقود والمشتريات",
     "bidValue": "1000",
     "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=x05*@@**1NmdoJEuBum4oiT%20XA==",
     "inquiryDeadline": "2025-11-09",
     "bidDeadline": "2025-11-20",
     "bidDeadlineTime": "09:00",
-    "bidDeadlineDaysLeft": 3,
-    "inquiryDeadlineDaysLeft": -8,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 0,
+    "inquiryDeadlineDaysLeft": -11,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع توفير وتشغيل النظام الرقمي لإدارة الأندية الطلابية بجامعة الملك سعود",
     "publishDate": "2025-10-21",
+    "tenderOpenDays": 44,
     "orgName": "جامعة الملك سعود",
     "subDeptName": "الادارة العامة للمشتريات",
     "bidValue": "1500",
@@ -485,13 +634,15 @@
     "inquiryDeadline": "2025-11-27",
     "bidDeadline": "2025-12-03",
     "bidDeadlineTime": "15:00",
-    "bidDeadlineDaysLeft": 16,
-    "inquiryDeadlineDaysLeft": 10,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 14,
+    "inquiryDeadlineDaysLeft": 7,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "منصة إدارة الاستراتيجية والمشاريع",
     "publishDate": "2025-10-21",
+    "tenderOpenDays": 35,
     "orgName": "جامعة الملك سعود",
     "subDeptName": "الادارة العامة للمشتريات",
     "bidValue": "1500",
@@ -499,13 +650,15 @@
     "inquiryDeadline": "2025-11-20",
     "bidDeadline": "2025-11-24",
     "bidDeadlineTime": "15:00",
-    "bidDeadlineDaysLeft": 7,
-    "inquiryDeadlineDaysLeft": 3,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": 5,
+    "inquiryDeadlineDaysLeft": 0,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توفير رخص منصة الأداء والدعم الفني للمنصة",
     "publishDate": "2025-10-21",
+    "tenderOpenDays": 17,
     "orgName": "الهيئة العامة للأوقاف",
     "subDeptName": "إدارة المشتريات والعقود",
     "bidValue": "1000",
@@ -513,13 +666,15 @@
     "inquiryDeadline": "2025-10-28",
     "bidDeadline": "2025-11-06",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -11,
-    "inquiryDeadlineDaysLeft": -20,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -14,
+    "inquiryDeadlineDaysLeft": -23,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "نقاط منصة مستمر لاعتماد الأنشطة بساعات تعليم طبي مستمر",
     "publishDate": "2025-10-21",
+    "tenderOpenDays": 17,
     "orgName": "مدينة الملك سعود الطبية",
     "subDeptName": "المشتريات الغير طبية",
     "bidValue": "700",
@@ -527,13 +682,15 @@
     "inquiryDeadline": "2025-10-31",
     "bidDeadline": "2025-11-06",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -11,
-    "inquiryDeadlineDaysLeft": -17,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -14,
+    "inquiryDeadlineDaysLeft": -20,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تنفيذ وتطوير نظام تحصيل الكتروني ومنصة موحدة للإشعارات",
     "publishDate": "2025-10-20",
+    "tenderOpenDays": 31,
     "orgName": "صندوق التنمية الزراعية",
     "subDeptName": "ادارة المشتريات والعقود",
     "bidValue": "1500",
@@ -541,13 +698,15 @@
     "inquiryDeadline": "2025-11-17",
     "bidDeadline": "2025-11-19",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": 2,
-    "inquiryDeadlineDaysLeft": 0,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -1,
+    "inquiryDeadlineDaysLeft": -3,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع البوابة المعرفية لمدة 3 سنوات",
     "publishDate": "2025-10-20",
+    "tenderOpenDays": 17,
     "orgName": "جامعة الملك عبدالعزيز",
     "subDeptName": "الإدارة العامة للعقود والمشتريات",
     "bidValue": "700",
@@ -555,13 +714,15 @@
     "inquiryDeadline": "2025-10-30",
     "bidDeadline": "2025-11-05",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -12,
-    "inquiryDeadlineDaysLeft": -18,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -15,
+    "inquiryDeadlineDaysLeft": -21,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توريد Hydraulic Surgery Mayo stand منصة جراحة هيدروليكية",
     "publishDate": "2025-10-19",
+    "tenderOpenDays": 9,
     "orgName": "الشؤون الصحیة بوزارة الحرس الوطني",
     "subDeptName": "إدارة المشتريات  -  مدينة الملك عبدالعزيز الطبية بالرياض",
     "bidValue": "200",
@@ -569,13 +730,15 @@
     "inquiryDeadline": "2025-10-22",
     "bidDeadline": "2025-10-27",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -21,
-    "inquiryDeadlineDaysLeft": -26,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -24,
+    "inquiryDeadlineDaysLeft": -29,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "الاشتراك في قاعدة بيانات\" Scopus \" والمنصة التحليلية SciVal",
     "publishDate": "2025-10-15",
+    "tenderOpenDays": 19,
     "orgName": "جامعة الأمير سطام بن عبدالعزيز",
     "subDeptName": "إدارة المشتريات",
     "bidValue": "700",
@@ -583,13 +746,15 @@
     "inquiryDeadline": "2025-10-28",
     "bidDeadline": "2025-11-02",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -15,
-    "inquiryDeadlineDaysLeft": -20,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -18,
+    "inquiryDeadlineDaysLeft": -23,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع إكمال التجهيزات المدنية لموقع منصة البذر الأرضية بالسودة",
     "publishDate": "2025-10-14",
+    "tenderOpenDays": 17,
     "orgName": "المركز الوطني للأرصاد",
     "subDeptName": "المنافسات",
     "bidValue": "200",
@@ -597,13 +762,15 @@
     "inquiryDeadline": "2025-10-28",
     "bidDeadline": "2025-10-30",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -18,
-    "inquiryDeadlineDaysLeft": -20,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -21,
+    "inquiryDeadlineDaysLeft": -23,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تحديث وتطوير المنصة التعليمية",
     "publishDate": "2025-10-14",
+    "tenderOpenDays": 17,
     "orgName": "القوات البرية",
     "subDeptName": "هيئة الاتصالات وتقنية المعلومات للقوات البرية  -  لجنة تأمين الاحتياجات",
     "bidValue": "10500",
@@ -611,13 +778,15 @@
     "inquiryDeadline": "2025-10-28",
     "bidDeadline": "2025-10-30",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -18,
-    "inquiryDeadlineDaysLeft": -20,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -21,
+    "inquiryDeadlineDaysLeft": -23,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توفير منصة لمراقبة المشاريع الهندسية في الموقع لهيئة تطوير محمية الامام تركي بن عبدالله الملكية",
     "publishDate": "2025-10-13",
+    "tenderOpenDays": 17,
     "orgName": "محمية الإمام تركي بن عبدالله",
     "subDeptName": "الإدارة العامة",
     "bidValue": "1000",
@@ -625,27 +794,15 @@
     "inquiryDeadline": "2025-10-20",
     "bidDeadline": "2025-10-29",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -19,
-    "inquiryDeadlineDaysLeft": -28,
-    "keyword": "منصة"
-  },
-  {
-    "title": "منافسة توريد مستلزمات طبية برقم طلب الشراء -KR1088 الخاصة بالمشروع البحثي رقم: (NRR24/007/5) وعنوانه ...",
-    "publishDate": "2025-10-12",
-    "orgName": "جامعة الملك سعود بن عبد العزیز للعلوم الصحیة",
-    "subDeptName": "ادارة الشراء المباشر بجامعة الملك سعود للعلوم الصحية",
-    "bidValue": "200",
-    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=%20V2uFF2XnnFgAhifobZNCA==",
-    "inquiryDeadline": "2025-10-22",
-    "bidDeadline": "2025-10-28",
-    "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -20,
-    "inquiryDeadlineDaysLeft": -26,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -22,
+    "inquiryDeadlineDaysLeft": -31,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "منافسة توريد مستلزمات طبية برقم طلب الشراء -KR1089 الخاصة بالمشروع البحثي رقم: (NRR24/007/5) وعنوانه ...",
     "publishDate": "2025-10-12",
+    "tenderOpenDays": 17,
     "orgName": "جامعة الملك سعود بن عبد العزیز للعلوم الصحیة",
     "subDeptName": "ادارة الشراء المباشر بجامعة الملك سعود للعلوم الصحية",
     "bidValue": "200",
@@ -653,13 +810,15 @@
     "inquiryDeadline": "2025-10-22",
     "bidDeadline": "2025-10-28",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -20,
-    "inquiryDeadlineDaysLeft": -26,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -23,
+    "inquiryDeadlineDaysLeft": -29,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع خدمات الطباعة المدارة للمركز الرئيسي",
     "publishDate": "2025-10-12",
+    "tenderOpenDays": 31,
     "orgName": "محمية الملك سلمان بن عبدالعزيز",
     "subDeptName": "هيئة تطوير محمية الملك سلمان بن عبدالعزيز الملكية",
     "bidValue": "1500",
@@ -667,13 +826,15 @@
     "inquiryDeadline": "2025-11-06",
     "bidDeadline": "2025-11-11",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -6,
-    "inquiryDeadlineDaysLeft": -11,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -9,
+    "inquiryDeadlineDaysLeft": -14,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع منصة إدارة طلبات التمويل لمكتب فريق العمل",
     "publishDate": "2025-10-12",
+    "tenderOpenDays": 17,
     "orgName": "برنامج الخدمات المشتركة",
     "subDeptName": "المشتريات",
     "bidValue": "500",
@@ -681,13 +842,15 @@
     "inquiryDeadline": "2025-10-22",
     "bidDeadline": "2025-10-28",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -20,
-    "inquiryDeadlineDaysLeft": -26,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -23,
+    "inquiryDeadlineDaysLeft": -29,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع تأسيس منصة التقنيات الناشئة ومعالجة الوثائق والبيانات وبناء نموذج لغوي متخصص – المرحلة الأولى",
     "publishDate": "2025-10-09",
+    "tenderOpenDays": 39,
     "orgName": "أمارة منطقة المدينة المنورة",
     "subDeptName": "الشؤون الادارية والمالية  -  المشتريات",
     "bidValue": "1000",
@@ -695,13 +858,15 @@
     "inquiryDeadline": "2025-11-13",
     "bidDeadline": "2025-11-16",
     "bidDeadlineTime": "07:00",
-    "bidDeadlineDaysLeft": -1,
-    "inquiryDeadlineDaysLeft": -4,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -4,
+    "inquiryDeadlineDaysLeft": -7,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تصميم وتنفيذ تحسينات على طلبات وشاشات واجهة المستخدم لنظام إيراد",
     "publishDate": "2025-10-09",
+    "tenderOpenDays": 32,
     "orgName": "هيئة الزكاة والضريبة والجمارك",
     "subDeptName": "إدارة المشتريات والمناقصات",
     "bidValue": "800",
@@ -709,13 +874,15 @@
     "inquiryDeadline": "2025-10-19",
     "bidDeadline": "2025-11-09",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -8,
-    "inquiryDeadlineDaysLeft": -29,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -11,
+    "inquiryDeadlineDaysLeft": -32,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "الاتفاقية الإطارية لتشغيل منصة تجربة العملاء",
     "publishDate": "2025-10-09",
+    "tenderOpenDays": 32,
     "orgName": "صندوق التنمية الوطني",
     "subDeptName": "ادارة المشتريات  -  المركز الرئيسي",
     "bidValue": "500",
@@ -723,13 +890,15 @@
     "inquiryDeadline": "2025-11-03",
     "bidDeadline": "2025-11-09",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -8,
-    "inquiryDeadlineDaysLeft": -14,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -11,
+    "inquiryDeadlineDaysLeft": -17,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "المحفظة الرقمية لمنصة التراخيص",
     "publishDate": "2025-10-09",
+    "tenderOpenDays": 19,
     "orgName": "مركز مشاريع البنية التحتية بمنطقة الرياض",
     "subDeptName": "مركز مشاريع البنية التحتية بمنطقة الرياض",
     "bidValue": "800",
@@ -737,13 +906,15 @@
     "inquiryDeadline": "2025-10-19",
     "bidDeadline": "2025-10-27",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -21,
-    "inquiryDeadlineDaysLeft": -29,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -24,
+    "inquiryDeadlineDaysLeft": -32,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "منافسة توريد مستلزمات طبية برقم طلب الشراء KR1095-KR1090 الخاصة بالمشروع البحثي رقم: (NRR24/007/5) و ...",
     "publishDate": "2025-10-09",
+    "tenderOpenDays": 17,
     "orgName": "جامعة الملك سعود بن عبد العزیز للعلوم الصحیة",
     "subDeptName": "ادارة الشراء المباشر بجامعة الملك سعود للعلوم الصحية",
     "bidValue": "200",
@@ -751,13 +922,15 @@
     "inquiryDeadline": "2025-10-19",
     "bidDeadline": "2025-10-25",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -23,
-    "inquiryDeadlineDaysLeft": -29,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -26,
+    "inquiryDeadlineDaysLeft": -32,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "الاشتراك في منصة ستاتيستا ومنصة EIU Solutions",
     "publishDate": "2025-10-08",
+    "tenderOpenDays": 17,
     "orgName": "هيئة الزكاة والضريبة والجمارك",
     "subDeptName": "إدارة المشتريات والمناقصات",
     "bidValue": "800",
@@ -765,13 +938,15 @@
     "inquiryDeadline": "2025-10-18",
     "bidDeadline": "2025-10-24",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -24,
-    "inquiryDeadlineDaysLeft": -30,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -27,
+    "inquiryDeadlineDaysLeft": -33,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "رخصة منصة دعم مسؤولي الأمن السيبراني",
     "publishDate": "2025-10-08",
+    "tenderOpenDays": 19,
     "orgName": "الهيئة العامة للعقار",
     "subDeptName": "المشتريات والعقود",
     "bidValue": "2000",
@@ -779,13 +954,15 @@
     "inquiryDeadline": "2025-10-23",
     "bidDeadline": "2025-10-26",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -22,
-    "inquiryDeadlineDaysLeft": -25,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -25,
+    "inquiryDeadlineDaysLeft": -28,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "شراء نقاط منصة مستمر للأنشطة التعليمية",
     "publishDate": "2025-10-07",
+    "tenderOpenDays": 19,
     "orgName": "مستشفى الملك فهد بجدة",
     "subDeptName": "الشراء المباشر",
     "bidValue": "200",
@@ -793,13 +970,15 @@
     "inquiryDeadline": "2025-10-25",
     "bidDeadline": "2025-10-25",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -23,
-    "inquiryDeadlineDaysLeft": -23,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -26,
+    "inquiryDeadlineDaysLeft": -26,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تجديد عقد دعم وصيانة لمدة (عام ميلادي) لنظام (صوتك : منصة النظام الوطني لسلامة المرضى)",
     "publishDate": "2025-10-06",
+    "tenderOpenDays": 25,
     "orgName": "مستشفى قوى الأمن بمنطقة مكة المكرمة",
     "subDeptName": "برنامج مستشفى قوى الأمن بمكة المكرمة",
     "bidValue": "200",
@@ -807,13 +986,15 @@
     "inquiryDeadline": "2025-10-28",
     "bidDeadline": "2025-10-30",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -18,
-    "inquiryDeadlineDaysLeft": -20,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -21,
+    "inquiryDeadlineDaysLeft": -23,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع صيانة وتشغيل انظمة الموارد الحكومي (الموارد البشرية، المالية، المشتريات، المستودعات)",
     "publishDate": "2025-10-05",
+    "tenderOpenDays": 32,
     "orgName": "المراسم الملكية",
     "subDeptName": "المشتريات والمناقصات",
     "bidValue": "1500",
@@ -821,13 +1002,15 @@
     "inquiryDeadline": "2025-10-15",
     "bidDeadline": "2025-11-05",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -12,
-    "inquiryDeadlineDaysLeft": -33,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -15,
+    "inquiryDeadlineDaysLeft": -36,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تجديد الرخص التعليمية في المنصة الوطنية للتعليم الإلكتروني FutureX",
     "publishDate": "2025-10-02",
+    "tenderOpenDays": 18,
     "orgName": "جامعة الأمير سطام بن عبدالعزيز",
     "subDeptName": "إدارة المشتريات",
     "bidValue": "700",
@@ -835,13 +1018,15 @@
     "inquiryDeadline": "2025-10-12",
     "bidDeadline": "2025-10-19",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -29,
-    "inquiryDeadlineDaysLeft": -36,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -32,
+    "inquiryDeadlineDaysLeft": -39,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع خدمات أدوات التوظيف للصندوق",
     "publishDate": "2025-10-01",
+    "tenderOpenDays": 23,
     "orgName": "صندوق البنية التحتية الوطني",
     "subDeptName": "صندوق البنية التحتية الوطني",
     "bidValue": "500",
@@ -849,13 +1034,15 @@
     "inquiryDeadline": "2025-10-20",
     "bidDeadline": "2025-10-23",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -25,
-    "inquiryDeadlineDaysLeft": -28,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -28,
+    "inquiryDeadlineDaysLeft": -31,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توفير اشتراك خدمة تداول محلية وعالمية",
     "publishDate": "2025-09-30",
+    "tenderOpenDays": 17,
     "orgName": "صندوق البيئة",
     "subDeptName": "الرئيسي",
     "bidValue": "500",
@@ -863,13 +1050,15 @@
     "inquiryDeadline": "2025-10-10",
     "bidDeadline": "2025-10-16",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -32,
-    "inquiryDeadlineDaysLeft": -38,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -35,
+    "inquiryDeadlineDaysLeft": -41,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "استئجار شاشات عرض لمنصة العرض العسكري بالعاصمة المقدسة 1447هـ",
     "publishDate": "2025-09-30",
+    "tenderOpenDays": 17,
     "orgName": "الأمن العام ( الإدارة العامة لأنظمة الاتصالات)",
     "subDeptName": "الإدارة العامة لأنظمة الإتصالات",
     "bidValue": "1000",
@@ -877,13 +1066,15 @@
     "inquiryDeadline": "2025-10-10",
     "bidDeadline": "2025-10-16",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -32,
-    "inquiryDeadlineDaysLeft": -38,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -35,
+    "inquiryDeadlineDaysLeft": -41,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تأمين منصة عمل صيدلية لتحضير الأدوية لصالح قسم الطوارئ بمستشفى الملك فهد المركزي بجازان",
     "publishDate": "2025-09-30",
+    "tenderOpenDays": 8,
     "orgName": "تجمع جازان الصحي",
     "subDeptName": "الشراء المباشر",
     "bidValue": "200",
@@ -891,13 +1082,15 @@
     "inquiryDeadline": "2025-10-05",
     "bidDeadline": "2025-10-07",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -41,
-    "inquiryDeadlineDaysLeft": -43,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -44,
+    "inquiryDeadlineDaysLeft": -46,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توفير و تثبيت ودعم وصيانة منصة تطوير الأنظمة والتطبيقات (Low Code/No code Platform) لقسم إدارة تطو ...",
     "publishDate": "2025-09-29",
+    "tenderOpenDays": 43,
     "orgName": "الشؤون الصحیة بوزارة الحرس الوطني",
     "subDeptName": "إدارة خدمات المناقصات",
     "bidValue": "1000",
@@ -905,13 +1098,15 @@
     "inquiryDeadline": "2025-11-04",
     "bidDeadline": "2025-11-10",
     "bidDeadlineTime": "07:30",
-    "bidDeadlineDaysLeft": -7,
-    "inquiryDeadlineDaysLeft": -13,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -10,
+    "inquiryDeadlineDaysLeft": -16,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "ربط خدمات المستفيدين الأفراد من منصة نما في الوزارة بالتطبيق الوطني توكلنا",
     "publishDate": "2025-09-29",
+    "tenderOpenDays": 32,
     "orgName": "وزارة البيئة والمياه والزراعة",
     "subDeptName": "إدارة المشتريات والعقود",
     "bidValue": "1000",
@@ -919,13 +1114,15 @@
     "inquiryDeadline": "2025-10-19",
     "bidDeadline": "2025-10-30",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -18,
-    "inquiryDeadlineDaysLeft": -29,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -21,
+    "inquiryDeadlineDaysLeft": -32,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع تمكين وتنفيذ بيانات والتحليلات المتقدمة",
     "publishDate": "2025-09-25",
+    "tenderOpenDays": 32,
     "orgName": "صندوق البنية التحتية الوطني",
     "subDeptName": "صندوق البنية التحتية الوطني",
     "bidValue": "500",
@@ -933,27 +1130,31 @@
     "inquiryDeadline": "2025-10-11",
     "bidDeadline": "2025-10-26",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -22,
-    "inquiryDeadlineDaysLeft": -37,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -25,
+    "inquiryDeadlineDaysLeft": -40,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع تجديد رخص أداة علم البيانات والتحليلات",
     "publishDate": "2025-09-25",
-    "orgName": "الهيئة السعودية للمياه",
+    "tenderOpenDays": 18,
+    "orgName": "المؤسسة العامة لتحلية المياه المالحة",
     "subDeptName": "ادارة الشراء  -  قسم مشتريات الخدمات والمشاريع",
     "bidValue": "1000",
     "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=PYDXhd6sz8P2CUZXs7uZEA==",
     "inquiryDeadline": "2025-10-11",
     "bidDeadline": "2025-10-12",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -36,
-    "inquiryDeadlineDaysLeft": -37,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -39,
+    "inquiryDeadlineDaysLeft": -40,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تقديم الخدمات المدارة لدعم وتطوير المنصة الرقمية الموحدة وتطبيقاتها",
     "publishDate": "2025-09-25",
+    "tenderOpenDays": 46,
     "orgName": "وزارة البيئة والمياه والزراعة",
     "subDeptName": "إدارة المشتريات والعقود",
     "bidValue": "1000",
@@ -961,13 +1162,15 @@
     "inquiryDeadline": "2025-11-04",
     "bidDeadline": "2025-11-09",
     "bidDeadlineTime": "07:00",
-    "bidDeadlineDaysLeft": -8,
-    "inquiryDeadlineDaysLeft": -13,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -11,
+    "inquiryDeadlineDaysLeft": -16,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "صيانة وتجديد تراخيص منصة التأهيل وتحديث مكوّن المراكز الأهلية – المرحلة الأولى",
     "publishDate": "2025-09-25",
+    "tenderOpenDays": 17,
     "orgName": "وزارة الموارد البشرية والتنمية الاجتماعية",
     "subDeptName": "إدارة المشتريات",
     "bidValue": "550",
@@ -975,13 +1178,15 @@
     "inquiryDeadline": "2025-10-05",
     "bidDeadline": "2025-10-11",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -37,
-    "inquiryDeadlineDaysLeft": -43,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -40,
+    "inquiryDeadlineDaysLeft": -46,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تجديد تشغيل نظام إدارة تحويل حقوق منتسبي الدولة (منصة صرف –UGP )",
     "publishDate": "2025-09-21",
+    "tenderOpenDays": 17,
     "orgName": "وزارة التجارة",
     "subDeptName": "ادارة المناقصات والمشتريات",
     "bidValue": "1000",
@@ -989,13 +1194,15 @@
     "inquiryDeadline": "2025-10-05",
     "bidDeadline": "2025-10-07",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -41,
-    "inquiryDeadlineDaysLeft": -43,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -44,
+    "inquiryDeadlineDaysLeft": -46,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تجديد رخص منصة الشكاوى وإدارة العلاقة مع عملاء هيئة التأمين",
     "publishDate": "2025-09-18",
+    "tenderOpenDays": 17,
     "orgName": "هيئة التأمين",
     "subDeptName": "المشتريات",
     "bidValue": "1500",
@@ -1003,13 +1210,15 @@
     "inquiryDeadline": "2025-09-25",
     "bidDeadline": "2025-10-04",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -44,
-    "inquiryDeadlineDaysLeft": -53,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -47,
+    "inquiryDeadlineDaysLeft": -56,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "اشتراك في منصة قانونية",
     "publishDate": "2025-09-18",
+    "tenderOpenDays": 12,
     "orgName": "هيئة تطوير منطقة المدينة المنورة",
     "subDeptName": "ادارة العقود والمنافسات",
     "bidValue": "200",
@@ -1017,13 +1226,15 @@
     "inquiryDeadline": "2025-09-26",
     "bidDeadline": "2025-09-29",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -49,
-    "inquiryDeadlineDaysLeft": -52,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -52,
+    "inquiryDeadlineDaysLeft": -55,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توريد وتركيب قواطع زجاجية لزوم إدارة الحركة وشعبة منصة اعتماد بمبنى رقم 109",
     "publishDate": "2025-09-17",
+    "tenderOpenDays": 6,
     "orgName": "وزارة الحرس الوطني",
     "subDeptName": "ادارة المشتريات",
     "bidValue": "200",
@@ -1031,13 +1242,15 @@
     "inquiryDeadline": "2025-09-20",
     "bidDeadline": "2025-09-22",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -56,
-    "inquiryDeadlineDaysLeft": -58,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -59,
+    "inquiryDeadlineDaysLeft": -61,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع خدمة اشتراكات في منصة بحثية وارشادية لفريق قيادة البرامج التنفيذية",
     "publishDate": "2025-09-16",
+    "tenderOpenDays": 24,
     "orgName": "مجلس الضمان الصحي",
     "subDeptName": "إدارة العقود والمشتريات",
     "bidValue": "700",
@@ -1045,13 +1258,15 @@
     "inquiryDeadline": "2025-09-24",
     "bidDeadline": "2025-10-09",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -39,
-    "inquiryDeadlineDaysLeft": -54,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -42,
+    "inquiryDeadlineDaysLeft": -57,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توريد وتركيب منصة عرض بنظام التأجير و منصة تتويج للفائزين بالمراكز الثلالثة الاولى لفعالية الاولمب ...",
     "publishDate": "2025-09-16",
+    "tenderOpenDays": 7,
     "orgName": "جامعة الملك سعود بن عبد العزیز للعلوم الصحیة",
     "subDeptName": "ادارة الشراء المباشر بجامعة الملك سعود للعلوم الصحية",
     "bidValue": "200",
@@ -1059,13 +1274,15 @@
     "inquiryDeadline": "2025-09-19",
     "bidDeadline": "2025-09-22",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -56,
-    "inquiryDeadlineDaysLeft": -59,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -59,
+    "inquiryDeadlineDaysLeft": -62,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تأمين اشتراك سنوي في منصة وحدة الذكاء الاقتصادي للمركز السعودي للشراكات الاستراتيجية الدولية.",
     "publishDate": "2025-09-16",
+    "tenderOpenDays": 17,
     "orgName": "المركز السعودي للشراكات الاستراتيجية الدولية",
     "subDeptName": "الفرع الرئيسي",
     "bidValue": "1000",
@@ -1073,13 +1290,15 @@
     "inquiryDeadline": "2025-09-18",
     "bidDeadline": "2025-10-02",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -46,
-    "inquiryDeadlineDaysLeft": -60,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -49,
+    "inquiryDeadlineDaysLeft": -63,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تحسينات وتقديم الدعم الفني لنظام الحوكمة والالتزام والمخاطر واستمرارية الأعمال GRC",
     "publishDate": "2025-09-16",
+    "tenderOpenDays": 17,
     "orgName": "صندوق التنمية العقارية",
     "subDeptName": "الإدارة العامة للمشتريات والعقود  -  قسم المناقصات",
     "bidValue": "1500",
@@ -1087,13 +1306,15 @@
     "inquiryDeadline": "2025-09-26",
     "bidDeadline": "2025-10-02",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -46,
-    "inquiryDeadlineDaysLeft": -52,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -49,
+    "inquiryDeadlineDaysLeft": -55,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توفير وتطوير خدمة نبأ الشاملة",
     "publishDate": "2025-09-16",
+    "tenderOpenDays": 17,
     "orgName": "ديوان المظالم",
     "subDeptName": "ادارة العقود والمشتريات",
     "bidValue": "700",
@@ -1101,13 +1322,15 @@
     "inquiryDeadline": "2025-09-26",
     "bidDeadline": "2025-10-02",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -46,
-    "inquiryDeadlineDaysLeft": -52,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -49,
+    "inquiryDeadlineDaysLeft": -55,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "إشتراك في منصة توظيف للإعلان عن الوظائف",
     "publishDate": "2025-09-15",
+    "tenderOpenDays": 8,
     "orgName": "مجلس الضمان الصحي",
     "subDeptName": "إدارة العقود والمشتريات",
     "bidValue": "200",
@@ -1115,13 +1338,15 @@
     "inquiryDeadline": "2025-09-17",
     "bidDeadline": "2025-09-22",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -56,
-    "inquiryDeadlineDaysLeft": -61,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -59,
+    "inquiryDeadlineDaysLeft": -64,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تجديد شرائح بيانات انترنت الاشياء للترانزيت",
     "publishDate": "2025-09-14",
+    "tenderOpenDays": 32,
     "orgName": "هيئة الزكاة والضريبة والجمارك",
     "subDeptName": "إدارة المشتريات والمناقصات",
     "bidValue": "800",
@@ -1129,13 +1354,15 @@
     "inquiryDeadline": "2025-09-24",
     "bidDeadline": "2025-10-15",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -33,
-    "inquiryDeadlineDaysLeft": -54,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -36,
+    "inquiryDeadlineDaysLeft": -57,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع توحيد الأعمال في منظومة التنمية",
     "publishDate": "2025-09-11",
+    "tenderOpenDays": 29,
     "orgName": "صندوق التنمية الوطني",
     "subDeptName": "ادارة المشتريات  -  المركز الرئيسي",
     "bidValue": "500",
@@ -1143,27 +1370,31 @@
     "inquiryDeadline": "2025-09-30",
     "bidDeadline": "2025-10-09",
     "bidDeadlineTime": "13:00",
-    "bidDeadlineDaysLeft": -39,
-    "inquiryDeadlineDaysLeft": -48,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -41,
+    "inquiryDeadlineDaysLeft": -51,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع تجديد رخص أداة حوكمة البيانات",
     "publishDate": "2025-09-11",
-    "orgName": "الهيئة السعودية للمياه",
+    "tenderOpenDays": 18,
+    "orgName": "المؤسسة العامة لتحلية المياه المالحة",
     "subDeptName": "ادارة الشراء  -  قسم مشتريات الخدمات والمشاريع",
     "bidValue": "1000",
     "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=%20RI*@@**3xXt5DazgNyiz04iFg==",
     "inquiryDeadline": "2025-09-21",
     "bidDeadline": "2025-09-28",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -50,
-    "inquiryDeadlineDaysLeft": -57,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -53,
+    "inquiryDeadlineDaysLeft": -60,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "منصة التدريب الالكترونية",
     "publishDate": "2025-09-11",
+    "tenderOpenDays": 17,
     "orgName": "مدينة الملك عبدالله للطاقة الذرية والمتجددة",
     "subDeptName": "المشتريات",
     "bidValue": "800",
@@ -1171,13 +1402,15 @@
     "inquiryDeadline": "2025-09-23",
     "bidDeadline": "2025-09-27",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -51,
-    "inquiryDeadlineDaysLeft": -55,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -54,
+    "inquiryDeadlineDaysLeft": -58,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع تجديد الدعم الفني وتجديد رخص تطبيق ومنصة آمرني في وزارة النقل والخدمات اللوجستية – المرحلة الث ...",
     "publishDate": "2025-09-11",
+    "tenderOpenDays": 20,
     "orgName": "وزارة النقل والخدمات اللوجستية",
     "subDeptName": "الديوان العام  -  ديوان الوزارة  - المنافسات والعقود",
     "bidValue": "5500",
@@ -1185,13 +1418,15 @@
     "inquiryDeadline": "2025-09-21",
     "bidDeadline": "2025-09-30",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -48,
-    "inquiryDeadlineDaysLeft": -57,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -51,
+    "inquiryDeadlineDaysLeft": -60,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "إدارة وتطوير محتوى وبيانات المنصة الرقمية القطاعية لتنمية القدرات البشرية في قطاع الطاقة",
     "publishDate": "2025-09-10",
+    "tenderOpenDays": 33,
     "orgName": "مدينة الملك عبدالله للطاقة الذرية والمتجددة",
     "subDeptName": "المشتريات",
     "bidValue": "1500",
@@ -1199,13 +1434,15 @@
     "inquiryDeadline": "2025-10-10",
     "bidDeadline": "2025-10-12",
     "bidDeadlineTime": "12:00",
-    "bidDeadlineDaysLeft": -36,
-    "inquiryDeadlineDaysLeft": -38,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -39,
+    "inquiryDeadlineDaysLeft": -41,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "زيادة رخص خدمة منصة الاشعارات",
     "publishDate": "2025-09-10",
+    "tenderOpenDays": 21,
     "orgName": "هيئة التأمين",
     "subDeptName": "المشتريات",
     "bidValue": "600",
@@ -1213,13 +1450,15 @@
     "inquiryDeadline": "2025-09-25",
     "bidDeadline": "2025-09-30",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -48,
-    "inquiryDeadlineDaysLeft": -53,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -51,
+    "inquiryDeadlineDaysLeft": -56,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توفير الاشتراك في منصة (ScienceDirect) لمنسوبي جامعة الملك سعود",
     "publishDate": "2025-09-10",
+    "tenderOpenDays": 33,
     "orgName": "جامعة الملك سعود",
     "subDeptName": "الادارة العامة للمشتريات",
     "bidValue": "1500",
@@ -1227,13 +1466,15 @@
     "inquiryDeadline": "2025-10-09",
     "bidDeadline": "2025-10-12",
     "bidDeadlineTime": "15:00",
-    "bidDeadlineDaysLeft": -36,
-    "inquiryDeadlineDaysLeft": -39,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -38,
+    "inquiryDeadlineDaysLeft": -42,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "رخص نظام أمن البريد الإلكتروني",
     "publishDate": "2025-09-10",
+    "tenderOpenDays": 19,
     "orgName": "هيئة تقويم التعليم",
     "subDeptName": "الادارة العامة للمشتريات والعقود",
     "bidValue": "1000",
@@ -1241,41 +1482,47 @@
     "inquiryDeadline": "2025-09-16",
     "bidDeadline": "2025-09-28",
     "bidDeadlineTime": "07:50",
-    "bidDeadlineDaysLeft": -50,
-    "inquiryDeadlineDaysLeft": -62,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -53,
+    "inquiryDeadlineDaysLeft": -65,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع تنفيذ وتطوير منصة أتمتة الابتكار والأبحاث الذكية",
     "publishDate": "2025-09-10",
-    "orgName": "الهيئة السعودية للمياه",
+    "tenderOpenDays": 21,
+    "orgName": "المؤسسة العامة لتحلية المياه المالحة",
     "subDeptName": "ادارة الشراء  -  قسم مشتريات الخدمات والمشاريع",
     "bidValue": "1000",
     "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=*@@**Py2Yzdyh%20XW*@@**guA0Bpxdw==",
     "inquiryDeadline": "2025-09-29",
     "bidDeadline": "2025-09-30",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -48,
-    "inquiryDeadlineDaysLeft": -49,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -51,
+    "inquiryDeadlineDaysLeft": -52,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تطوير ودعم فني لمنصة التنسيق التشغيلي (امداد)",
     "publishDate": "2025-09-09",
-    "orgName": "الهيئة السعودية للمياه",
+    "tenderOpenDays": 17,
+    "orgName": "المؤسسة العامة لتحلية المياه المالحة",
     "subDeptName": "ادارة الشراء  -  قسم مشتريات الخدمات والمشاريع",
     "bidValue": "1000",
     "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=XdjJEvmXr2NBupJk4s0g0w==",
     "inquiryDeadline": "2025-09-19",
     "bidDeadline": "2025-09-25",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -53,
-    "inquiryDeadlineDaysLeft": -59,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -56,
+    "inquiryDeadlineDaysLeft": -62,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تشغيل الخدمات الالكترونية لمراكز ضيافة الأطفال",
     "publishDate": "2025-09-09",
+    "tenderOpenDays": 13,
     "orgName": "وزارة الموارد البشرية والتنمية الاجتماعية",
     "subDeptName": "إدارة المشتريات",
     "bidValue": "200",
@@ -1283,13 +1530,15 @@
     "inquiryDeadline": "2025-09-17",
     "bidDeadline": "2025-09-21",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -57,
-    "inquiryDeadlineDaysLeft": -61,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -60,
+    "inquiryDeadlineDaysLeft": -64,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تجهيز منصة تطوير منخفضة اكواد / بلا اكواد وتنفيذ تطوير منصات الصندوق الداخلية والخارجية",
     "publishDate": "2025-09-08",
+    "tenderOpenDays": 22,
     "orgName": "صندوق التنمية الصناعية",
     "subDeptName": "المنافسات",
     "bidValue": "600",
@@ -1297,13 +1546,15 @@
     "inquiryDeadline": "2025-09-21",
     "bidDeadline": "2025-09-29",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -49,
-    "inquiryDeadlineDaysLeft": -57,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -52,
+    "inquiryDeadlineDaysLeft": -60,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "واجهة تطبيقية وقاعدة بيانات للأودية والشعاب وأحرامها في المملكة العربية السعودية - مشروع \"وديان",
     "publishDate": "2025-09-08",
+    "tenderOpenDays": 32,
     "orgName": "هيئة المساحة الجيولوجية السعودية",
     "subDeptName": "ادارة الشؤون الادارية والمالية  -  إدارة المشتريات والمنافسات",
     "bidValue": "600",
@@ -1311,27 +1562,31 @@
     "inquiryDeadline": "2025-09-18",
     "bidDeadline": "2025-10-09",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -39,
-    "inquiryDeadlineDaysLeft": -60,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -42,
+    "inquiryDeadlineDaysLeft": -63,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "الخدمات التشغيلية للرقابة والامتثال",
     "publishDate": "2025-09-07",
-    "orgName": "الهيئة السعودية للمياه",
+    "tenderOpenDays": 18,
+    "orgName": "المؤسسة العامة لتحلية المياه المالحة",
     "subDeptName": "ادارة الشراء  -  قسم مشتريات الخدمات والمشاريع",
     "bidValue": "1000",
     "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=mYfqOcPbLUJFbDqOGKzRHA==",
     "inquiryDeadline": "2025-09-22",
     "bidDeadline": "2025-09-24",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -54,
-    "inquiryDeadlineDaysLeft": -56,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -57,
+    "inquiryDeadlineDaysLeft": -59,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توفير منصة حماية المخاطر الرقمية المدارة بالكامل للمركز السعودي للشراكات الاستراتيجية الدولية",
     "publishDate": "2025-09-04",
+    "tenderOpenDays": 21,
     "orgName": "المركز السعودي للشراكات الاستراتيجية الدولية",
     "subDeptName": "الفرع الرئيسي",
     "bidValue": "700",
@@ -1339,13 +1594,15 @@
     "inquiryDeadline": "2025-09-14",
     "bidDeadline": "2025-09-24",
     "bidDeadlineTime": "17:00",
-    "bidDeadlineDaysLeft": -54,
-    "inquiryDeadlineDaysLeft": -64,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -56,
+    "inquiryDeadlineDaysLeft": -67,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توريد كشافات إنارة تعمل بالطاقة الشمسية وأعمدة",
     "publishDate": "2025-09-04",
+    "tenderOpenDays": 18,
     "orgName": "أمانة منطقة الرياض",
     "subDeptName": "بلدية البديع",
     "bidValue": "700",
@@ -1353,27 +1610,31 @@
     "inquiryDeadline": "2025-09-14",
     "bidDeadline": "2025-09-21",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -57,
-    "inquiryDeadlineDaysLeft": -64,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -60,
+    "inquiryDeadlineDaysLeft": -67,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "خدمة الإشتراك في منصة قاعدة بيانات مؤشرات أداء جودة التمريض في المستشفيات التابعة",
     "publishDate": "2025-09-03",
-    "orgName": "وزارة الصحة الديوان العام",
+    "tenderOpenDays": 47,
+    "orgName": "وزارة الصحه الديوان العام",
     "subDeptName": "ديوان الوزارة ، الإدارة العامة للعقود والمشتريات",
     "bidValue": "1000",
     "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=dgPujAY8UNSSp0Pp6DiohQ==",
     "inquiryDeadline": "2025-10-06",
     "bidDeadline": "2025-10-19",
     "bidDeadlineTime": "09:00",
-    "bidDeadlineDaysLeft": -29,
-    "inquiryDeadlineDaysLeft": -42,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -32,
+    "inquiryDeadlineDaysLeft": -45,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "شراء رخص التوظيف في منصة لينكد إن (Recruiter – Corporate) (اعادة طرح )",
     "publishDate": "2025-09-02",
+    "tenderOpenDays": 22,
     "orgName": "الادارة العامة لمشروع ينبع",
     "subDeptName": "مدينة ينبع الصناعية  -  إدارة المشتريات  -  قسم المشتريات",
     "bidValue": "600",
@@ -1381,13 +1642,15 @@
     "inquiryDeadline": "2025-09-12",
     "bidDeadline": "2025-09-23",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -55,
-    "inquiryDeadlineDaysLeft": -66,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -58,
+    "inquiryDeadlineDaysLeft": -69,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تقديم خدمات تسويق الفعاليات",
     "publishDate": "2025-09-01",
+    "tenderOpenDays": 17,
     "orgName": "الهيئة العامة للمعارض والمؤتمرات",
     "subDeptName": "المركز الرئيسي",
     "bidValue": "1000",
@@ -1395,13 +1658,15 @@
     "inquiryDeadline": "2025-09-11",
     "bidDeadline": "2025-09-17",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -61,
-    "inquiryDeadlineDaysLeft": -67,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -64,
+    "inquiryDeadlineDaysLeft": -70,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "الخدمات المدارة لتشغيل وصيانة عنوان الأعمال المعتمد",
     "publishDate": "2025-09-01",
+    "tenderOpenDays": 37,
     "orgName": "مؤسسة البريد السعودي",
     "subDeptName": "الإدارة العامة لسلاسل الامداد",
     "bidValue": "1000",
@@ -1409,13 +1674,15 @@
     "inquiryDeadline": "2025-10-02",
     "bidDeadline": "2025-10-07",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -41,
-    "inquiryDeadlineDaysLeft": -46,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -44,
+    "inquiryDeadlineDaysLeft": -49,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تنفيذ حل رقمي لإدارة وتحليلات أصول البنية التحتية",
     "publishDate": "2025-08-31",
+    "tenderOpenDays": 46,
     "orgName": "مركز مشاريع البنية التحتية بمنطقة الرياض",
     "subDeptName": "مركز مشاريع البنية التحتية بمنطقة الرياض",
     "bidValue": "1000",
@@ -1423,13 +1690,15 @@
     "inquiryDeadline": "2025-10-06",
     "bidDeadline": "2025-10-15",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -33,
-    "inquiryDeadlineDaysLeft": -42,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -36,
+    "inquiryDeadlineDaysLeft": -45,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توريد وتفعيل رخص اشتراك واستخدام منصة رقمية مالية لبيانات الأسواق الاقتصادية ومعلومات الشركات والمؤس ...",
     "publishDate": "2025-08-28",
+    "tenderOpenDays": 19,
     "orgName": "صندوق التنمية العقارية",
     "subDeptName": "الإدارة العامة للمشتريات والعقود  -  قسم المناقصات",
     "bidValue": "2500",
@@ -1437,13 +1706,15 @@
     "inquiryDeadline": "2025-09-07",
     "bidDeadline": "2025-09-15",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -63,
-    "inquiryDeadlineDaysLeft": -71,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -66,
+    "inquiryDeadlineDaysLeft": -74,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "منصة ساين إت للتوقيع الإلكتروني لجامعة الملك سعود بن عبدالعزيز للعلوم الصحية بالرياض",
     "publishDate": "2025-08-28",
+    "tenderOpenDays": 17,
     "orgName": "جامعة الملك سعود بن عبد العزیز للعلوم الصحیة",
     "subDeptName": "ادارة الشراء المباشر بجامعة الملك سعود للعلوم الصحية",
     "bidValue": "200",
@@ -1451,13 +1722,15 @@
     "inquiryDeadline": "2025-09-07",
     "bidDeadline": "2025-09-13",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -65,
-    "inquiryDeadlineDaysLeft": -71,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -68,
+    "inquiryDeadlineDaysLeft": -74,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "منافسة تحديث أنظمة إنذار الحريق الحالي إلى نظام حديث متطور بمستشفى الملك عبدالعزيز بالأحساء التابع ل ...",
     "publishDate": "2025-08-27",
+    "tenderOpenDays": 41,
     "orgName": "الشؤون الصحیة بوزارة الحرس الوطني",
     "subDeptName": "مناقصات مستشفى الملك عبدالعزيز بالاحساء ومستشفى الامام عبدالرحمن بن فيصل بالدمام",
     "bidValue": "1000",
@@ -1465,13 +1738,15 @@
     "inquiryDeadline": "2025-09-11",
     "bidDeadline": "2025-10-06",
     "bidDeadlineTime": "08:00",
-    "bidDeadlineDaysLeft": -42,
-    "inquiryDeadlineDaysLeft": -67,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -45,
+    "inquiryDeadlineDaysLeft": -70,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "عقد النظافة – (تشغيل منظومة ذكية لإدارة عقود الأداء لمشاريع إدارة النفايات والاصحاح البيئي)",
     "publishDate": "2025-08-26",
+    "tenderOpenDays": 34,
     "orgName": "أمانة منطقة نجران",
     "subDeptName": "ادارة المنافسات",
     "bidValue": "800",
@@ -1479,13 +1754,15 @@
     "inquiryDeadline": "2025-09-05",
     "bidDeadline": "2025-09-28",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -50,
-    "inquiryDeadlineDaysLeft": -73,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -53,
+    "inquiryDeadlineDaysLeft": -76,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مركز الاتصال السحابي Cloud Call Center",
     "publishDate": "2025-08-26",
+    "tenderOpenDays": 17,
     "orgName": "صندوق التنمية العقارية",
     "subDeptName": "الإدارة العامة للمشتريات والعقود  -  قسم المناقصات",
     "bidValue": "1500",
@@ -1493,13 +1770,15 @@
     "inquiryDeadline": "2025-09-05",
     "bidDeadline": "2025-09-11",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -67,
-    "inquiryDeadlineDaysLeft": -73,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -70,
+    "inquiryDeadlineDaysLeft": -76,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "الخدمات المدارة لتصميم وتطوير وتشغيل الحلول الرقمية",
     "publishDate": "2025-08-25",
+    "tenderOpenDays": 32,
     "orgName": "صندوق تنمية الموارد البشرية",
     "subDeptName": "هدف",
     "bidValue": "3500",
@@ -1507,13 +1786,15 @@
     "inquiryDeadline": "2025-09-04",
     "bidDeadline": "2025-09-25",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -53,
-    "inquiryDeadlineDaysLeft": -74,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -56,
+    "inquiryDeadlineDaysLeft": -77,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "خدمات البحث والوصول الى كفاءات مناسبة",
     "publishDate": "2025-08-25",
+    "tenderOpenDays": 17,
     "orgName": "هيئة الرقابة النووية والإشعاعية",
     "subDeptName": "هيئة الرقابة النووية والاشعاعية",
     "bidValue": "1000",
@@ -1521,13 +1802,15 @@
     "inquiryDeadline": "2025-09-04",
     "bidDeadline": "2025-09-10",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -68,
-    "inquiryDeadlineDaysLeft": -74,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -71,
+    "inquiryDeadlineDaysLeft": -77,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "نظام ادارة القروض و التحصيل",
     "publishDate": "2025-08-25",
+    "tenderOpenDays": 39,
     "orgName": "صندوق التنمية الثقافي",
     "subDeptName": "صندوق التنمية الثقافي",
     "bidValue": "1250",
@@ -1535,13 +1818,15 @@
     "inquiryDeadline": "2025-09-23",
     "bidDeadline": "2025-10-02",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -46,
-    "inquiryDeadlineDaysLeft": -55,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -49,
+    "inquiryDeadlineDaysLeft": -58,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "الاشتراك في منصة عالمية ومنصة محلية",
     "publishDate": "2025-08-25",
+    "tenderOpenDays": 24,
     "orgName": "بنك المنشآت الصغيرة والمتوسطة",
     "subDeptName": "عمليات مشتريات بنك المنشآت الصغيرة والمتوسطة",
     "bidValue": "1200",
@@ -1549,13 +1834,15 @@
     "inquiryDeadline": "2025-09-14",
     "bidDeadline": "2025-09-17",
     "bidDeadlineTime": "09:30",
-    "bidDeadlineDaysLeft": -61,
-    "inquiryDeadlineDaysLeft": -64,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -64,
+    "inquiryDeadlineDaysLeft": -67,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "توفير منصة إدارة الخطط الإستراتيجية بتجمع المدينة المنورة الصحي",
     "publishDate": "2025-08-24",
+    "tenderOpenDays": 24,
     "orgName": "تجمع المدينة المنورة الصحي",
     "subDeptName": "تجمع المدينة المنورة الصحي",
     "bidValue": "800",
@@ -1563,13 +1850,15 @@
     "inquiryDeadline": "2025-09-11",
     "bidDeadline": "2025-09-16",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -62,
-    "inquiryDeadlineDaysLeft": -67,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -65,
+    "inquiryDeadlineDaysLeft": -70,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "تامين منصة دعم اتخاذ القرار",
     "publishDate": "2025-08-24",
+    "tenderOpenDays": 17,
     "orgName": "القوات الخاصة للأمن والحماية",
     "subDeptName": "المقر الرئيسي",
     "bidValue": "1500",
@@ -1577,13 +1866,15 @@
     "inquiryDeadline": "2025-08-29",
     "bidDeadline": "2025-09-09",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -69,
-    "inquiryDeadlineDaysLeft": -80,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -72,
+    "inquiryDeadlineDaysLeft": -83,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "الاشتراك في منصة لقواعد المعلومات البحثية باللغة العربية والأجنبية المتخصصة",
     "publishDate": "2025-08-21",
+    "tenderOpenDays": 18,
     "orgName": "هيئة تقويم التعليم",
     "subDeptName": "الادارة العامة للمشتريات والعقود",
     "bidValue": "1000",
@@ -1591,13 +1882,15 @@
     "inquiryDeadline": "2025-08-26",
     "bidDeadline": "2025-09-07",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -71,
-    "inquiryDeadlineDaysLeft": -83,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -74,
+    "inquiryDeadlineDaysLeft": -86,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع تجديد الدعم الفني الخاص بنظام الربط مع منصة صرف",
     "publishDate": "2025-08-21",
+    "tenderOpenDays": 18,
     "orgName": "جامعة الملك سعود",
     "subDeptName": "الادارة العامة للمشتريات",
     "bidValue": "2500",
@@ -1605,13 +1898,15 @@
     "inquiryDeadline": "2025-09-04",
     "bidDeadline": "2025-09-07",
     "bidDeadlineTime": "15:00",
-    "bidDeadlineDaysLeft": -71,
-    "inquiryDeadlineDaysLeft": -74,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -73,
+    "inquiryDeadlineDaysLeft": -77,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   },
   {
     "title": "مشروع الدعم الفني لمنصة الحقوق والمزايا المالية \"صرف\" بجامعة بيشة",
     "publishDate": "2025-08-20",
+    "tenderOpenDays": 19,
     "orgName": "جامعة بيشة",
     "subDeptName": "أدارة العقود والمشتريات",
     "bidValue": "600",
@@ -1619,106 +1914,9 @@
     "inquiryDeadline": "2025-09-04",
     "bidDeadline": "2025-09-07",
     "bidDeadlineTime": "14:00",
-    "bidDeadlineDaysLeft": -71,
-    "inquiryDeadlineDaysLeft": -74,
-    "keyword": "منصة"
-  },
-  {
-    "title": "تجديد رخص نظام المعاملات ونظام معالجة وأرشفة وإدارة الوثائق",
-    "publishDate": "2025-08-19",
-    "orgName": "الهيئة الوطنية للأمن السيبراني",
-    "subDeptName": "الادارة العامة للمشتريات والعقود",
-    "bidValue": "700",
-    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=joy6XKjY72KmH2l5uuTlmQ==",
-    "inquiryDeadline": "2025-08-29",
-    "bidDeadline": "2025-09-04",
-    "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -74,
-    "inquiryDeadlineDaysLeft": -80,
-    "keyword": "منصة"
-  },
-  {
-    "title": "تجديد رخص اشتراك ودعم تطبيقات اكاديمية المياه",
-    "publishDate": "2025-08-19",
-    "orgName": "الهيئة السعودية للمياه",
-    "subDeptName": "ادارة الشراء  -  قسم مشتريات الخدمات والمشاريع",
-    "bidValue": "1000",
-    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=BfmRcu43WWpwI6AjpDQD%20w==",
-    "inquiryDeadline": "2025-08-29",
-    "bidDeadline": "2025-09-04",
-    "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -74,
-    "inquiryDeadlineDaysLeft": -80,
-    "keyword": "منصة"
-  },
-  {
-    "title": "برنامج تقديم الخصومات لمنسوبي الهيئة العامة للترفيه",
-    "publishDate": "2025-08-19",
-    "orgName": "الهيئة العامة للترفيه",
-    "subDeptName": "إدارة المشتريات  -  هيئة الترفيه",
-    "bidValue": "1000",
-    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=3hXnIZGPn6axDBBsb9nguQ==",
-    "inquiryDeadline": "2025-08-29",
-    "bidDeadline": "2025-09-04",
-    "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -74,
-    "inquiryDeadlineDaysLeft": -80,
-    "keyword": "منصة"
-  },
-  {
-    "title": "تأمين جهاز جدار ناري لمنصة بروق (الإتصال المرئي)",
-    "publishDate": "2025-08-19",
-    "orgName": "الأمن العام (التقنية والذكاء الاصطناعي)",
-    "subDeptName": "التقنية والذكاء الاصطناعي",
-    "bidValue": "200",
-    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=ZBUm6UqKuA7tQSMcH26ujg==",
-    "inquiryDeadline": "2025-08-28",
-    "bidDeadline": "2025-08-30",
-    "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -79,
-    "inquiryDeadlineDaysLeft": -81,
-    "keyword": "منصة"
-  },
-  {
-    "title": "إنشاء وإعادة تأهيل مستودع الأسلحة والذخيرة ومنصة الميدان بالقوة الخاصة بالبرشاعة",
-    "publishDate": "2025-08-19",
-    "orgName": "حرس الحدود",
-    "subDeptName": "ادارة المشتريات والعقود",
-    "bidValue": "800",
-    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=plbXpr2Ei%20aap9jg8hcHiw==",
-    "inquiryDeadline": "2025-08-31",
-    "bidDeadline": "2025-09-08",
-    "bidDeadlineTime": "08:00",
-    "bidDeadlineDaysLeft": -70,
-    "inquiryDeadlineDaysLeft": -78,
-    "keyword": "منصة"
-  },
-  {
-    "title": "مبادرة مركز دعم الأعمال والتشغيل الطبي",
-    "publishDate": "2025-08-17",
-    "orgName": "برنامج المدن الطبية",
-    "subDeptName": "إدارة العقود والمشتريات",
-    "bidValue": "5500",
-    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=DpuIxlOKjhS9sMlT%205vuQg==",
-    "inquiryDeadline": "2025-09-18",
-    "bidDeadline": "2025-09-24",
-    "bidDeadlineTime": "20:00",
-    "bidDeadlineDaysLeft": -54,
-    "inquiryDeadlineDaysLeft": -60,
-    "keyword": "منصة"
-  },
-  {
-    "title": "أعمال الزيارات الميدانية لمواقع التراخيص الطارئة المراد إغلاقها",
-    "publishDate": "2025-08-17",
-    "orgName": "مركز مشاريع البنية التحتية بمنطقة الرياض",
-    "subDeptName": "مركز مشاريع البنية التحتية بمنطقة الرياض",
-    "bidValue": "800",
-    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=uTDRDSAAruCvP6odJP%207%20Q==",
-    "inquiryDeadline": "2025-08-28",
-    "bidDeadline": "2025-09-03",
-    "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -75,
-    "inquiryDeadlineDaysLeft": -81,
-    "keyword": "منصة"
+    "bidDeadlineDaysLeft": -73,
+    "inquiryDeadlineDaysLeft": -77,
+    "keyword": "منصة",
+    "keywordEng": "platform"
   }
 ]

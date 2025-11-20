@@ -2,6 +2,7 @@
   {
     "title": "صيانة انارة طرق واحياء محافظة البكيرية والمراكز التابعة لها",
     "publishDate": "2025-11-17",
+    "tenderOpenDays": 17,
     "orgName": "بلدية محافظة البكيرية",
     "subDeptName": "بلدية البكيرية",
     "bidValue": "5500",
@@ -9,13 +10,15 @@
     "inquiryDeadline": "2025-11-27",
     "bidDeadline": "2025-12-03",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 16,
-    "inquiryDeadlineDaysLeft": 10,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": 13,
+    "inquiryDeadlineDaysLeft": 7,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "توريد قواعد خرسانية ومسامير للأ عمدة الانارة والديكورية",
     "publishDate": "2025-11-05",
+    "tenderOpenDays": 17,
     "orgName": "بلدية محافظة املج",
     "subDeptName": "بلدية محافظة أملج",
     "bidValue": "550",
@@ -23,13 +26,15 @@
     "inquiryDeadline": "2025-11-19",
     "bidDeadline": "2025-11-21",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 4,
-    "inquiryDeadlineDaysLeft": 2,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": 1,
+    "inquiryDeadlineDaysLeft": -1,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "توريد مواد كهرباء وانارة لموقع آفاق",
     "publishDate": "2025-11-04",
+    "tenderOpenDays": 10,
     "orgName": "قوات الدفاع الجوي",
     "subDeptName": "( فرع المنطقة الوسطى)  -  الادارة الهندسية والاشغال",
     "bidValue": "200",
@@ -37,13 +42,15 @@
     "inquiryDeadline": "2025-11-11",
     "bidDeadline": "2025-11-13",
     "bidDeadlineTime": "08:00",
-    "bidDeadlineDaysLeft": -4,
-    "inquiryDeadlineDaysLeft": -6,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -7,
+    "inquiryDeadlineDaysLeft": -9,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "صيانة واعادة تاهيل انارة الجسور والميادين والجزر الوسطية غرب عرعر",
     "publishDate": "2025-11-03",
+    "tenderOpenDays": 18,
     "orgName": "أمانة منطقة الحدود الشمالية",
     "subDeptName": "ادارة المشتريات  -  الامانة",
     "bidValue": "1000",
@@ -51,13 +58,15 @@
     "inquiryDeadline": "2025-11-16",
     "bidDeadline": "2025-11-20",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 3,
-    "inquiryDeadlineDaysLeft": -1,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": 0,
+    "inquiryDeadlineDaysLeft": -4,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "صيانة واعادة تاهيل انارة الجسور والميادين والجزر الوسطية شرق عرعر",
     "publishDate": "2025-11-03",
+    "tenderOpenDays": 20,
     "orgName": "أمانة منطقة الحدود الشمالية",
     "subDeptName": "ادارة المشتريات  -  الامانة",
     "bidValue": "1000",
@@ -65,13 +74,15 @@
     "inquiryDeadline": "2025-11-19",
     "bidDeadline": "2025-11-22",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": 5,
-    "inquiryDeadlineDaysLeft": 2,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": 2,
+    "inquiryDeadlineDaysLeft": -1,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "سفلتة وارصفة وانارة (تأهيل طرق الملك عبد العزيز)",
     "publishDate": "2025-10-26",
+    "tenderOpenDays": 17,
     "orgName": "بلدية محافظة ضمد",
     "subDeptName": "بلدية محافظة ضمد",
     "bidValue": "2500",
@@ -79,13 +90,15 @@
     "inquiryDeadline": "2025-11-05",
     "bidDeadline": "2025-11-11",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -6,
-    "inquiryDeadlineDaysLeft": -12,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -9,
+    "inquiryDeadlineDaysLeft": -15,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "تأهيل وحدات انارة ممشى الدراجات وممرات المشاة وتأهيل مناطق العاب الأطفال",
     "publishDate": "2025-10-22",
+    "tenderOpenDays": 33,
     "orgName": "الادارة العامة لمشروع الجبيل",
     "subDeptName": "إدارة العقود والمشتريات  -  قسم المشتريات",
     "bidValue": "800",
@@ -93,13 +106,15 @@
     "inquiryDeadline": "2025-11-20",
     "bidDeadline": "2025-11-23",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": 6,
-    "inquiryDeadlineDaysLeft": 3,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": 3,
+    "inquiryDeadlineDaysLeft": 0,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "استئجار سلة انارة 20 متر",
     "publishDate": "2025-10-21",
+    "tenderOpenDays": 17,
     "orgName": "بلدية أبو راكه",
     "subDeptName": "بلدية أبو راكة",
     "bidValue": "500",
@@ -107,13 +122,15 @@
     "inquiryDeadline": "2025-10-31",
     "bidDeadline": "2025-11-06",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -11,
-    "inquiryDeadlineDaysLeft": -17,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -14,
+    "inquiryDeadlineDaysLeft": -20,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "تأمين وتوريد مستلزمات وادوات صيانة اعمدة الانارة",
     "publishDate": "2025-10-15",
+    "tenderOpenDays": 6,
     "orgName": "أمانة منطقة عسير",
     "subDeptName": "المشتريات والمناقصات بالامانة",
     "bidValue": "200",
@@ -121,13 +138,15 @@
     "inquiryDeadline": "2025-10-18",
     "bidDeadline": "2025-10-20",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -28,
-    "inquiryDeadlineDaysLeft": -30,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -31,
+    "inquiryDeadlineDaysLeft": -33,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "توريد انارة لمنظومة انتاج الجبيل 60018906 بالساحل الشرقي",
     "publishDate": "2025-10-13",
+    "tenderOpenDays": 17,
     "orgName": "الهيئة السعودية للمياه",
     "subDeptName": "شعبة مشتريات الساحل الشرقي",
     "bidValue": "200",
@@ -135,13 +154,15 @@
     "inquiryDeadline": "2025-10-23",
     "bidDeadline": "2025-10-29",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -19,
-    "inquiryDeadlineDaysLeft": -25,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -22,
+    "inquiryDeadlineDaysLeft": -28,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "اعادة تاهيل الشوارع والانارة بظلم المرحلة الثالثة",
     "publishDate": "2025-10-13",
+    "tenderOpenDays": 17,
     "orgName": "بلدية ظلم",
     "subDeptName": "بلدية ظلم",
     "bidValue": "3000",
@@ -149,13 +170,15 @@
     "inquiryDeadline": "2025-10-23",
     "bidDeadline": "2025-10-29",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -19,
-    "inquiryDeadlineDaysLeft": -25,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -22,
+    "inquiryDeadlineDaysLeft": -28,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "تأمين عدد من أعمدة الانارة الديكورية / بلدية محافظة الرس",
     "publishDate": "2025-10-06",
+    "tenderOpenDays": 20,
     "orgName": "بلدية محافظة الرس",
     "subDeptName": "بلدية الرس",
     "bidValue": "10500",
@@ -163,13 +186,15 @@
     "inquiryDeadline": "2025-10-24",
     "bidDeadline": "2025-10-25",
     "bidDeadlineTime": "13:00",
-    "bidDeadlineDaysLeft": -23,
-    "inquiryDeadlineDaysLeft": -24,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -25,
+    "inquiryDeadlineDaysLeft": -27,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "صيانة الشوارع والأرصفة الانارة بأشواق",
     "publishDate": "2025-10-01",
+    "tenderOpenDays": 37,
     "orgName": "بلدية شواق",
     "subDeptName": "بلدية أشواق",
     "bidValue": "3500",
@@ -177,13 +202,15 @@
     "inquiryDeadline": "2025-11-04",
     "bidDeadline": "2025-11-06",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -11,
-    "inquiryDeadlineDaysLeft": -13,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -14,
+    "inquiryDeadlineDaysLeft": -16,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "تأمين وتوريد أدوات كهربائية لزوم انارة الطرق و الشوارع بالمحافظة و المراكز التابعة",
     "publishDate": "2025-10-01",
+    "tenderOpenDays": 17,
     "orgName": "بلدية الأمواه",
     "subDeptName": "الامواه",
     "bidValue": "3500",
@@ -191,13 +218,15 @@
     "inquiryDeadline": "2025-10-11",
     "bidDeadline": "2025-10-17",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -31,
-    "inquiryDeadlineDaysLeft": -37,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -34,
+    "inquiryDeadlineDaysLeft": -40,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "تعلن بلدية الحرجة عن طرح منافسة توريد أدوات كهربائية لصيانة الانارة والحدايق العامة والمنتزهات",
     "publishDate": "2025-09-29",
+    "tenderOpenDays": 18,
     "orgName": "بلدية الحرجة",
     "subDeptName": "بلدية الحرجة",
     "bidValue": "1000",
@@ -205,13 +234,15 @@
     "inquiryDeadline": "2025-10-15",
     "bidDeadline": "2025-10-16",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -32,
-    "inquiryDeadlineDaysLeft": -33,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -35,
+    "inquiryDeadlineDaysLeft": -36,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "توريد انارة لمنظومة انتاج الجبيل 60018706 الساحل الشرقي",
     "publishDate": "2025-09-22",
+    "tenderOpenDays": 17,
     "orgName": "الهيئة السعودية للمياه",
     "subDeptName": "شعبة مشتريات الساحل الشرقي",
     "bidValue": "500",
@@ -219,13 +250,15 @@
     "inquiryDeadline": "2025-10-02",
     "bidDeadline": "2025-10-08",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -40,
-    "inquiryDeadlineDaysLeft": -46,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -43,
+    "inquiryDeadlineDaysLeft": -49,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "تركيب وحدات انارة في مركز تدريب الدفاع المدني بالمنطقة الشرقية",
     "publishDate": "2025-09-21",
+    "tenderOpenDays": 4,
     "orgName": "ادارة الشؤون الفنية المركزية بالمنطقة الشرقية",
     "subDeptName": "ادارة الشؤون الفنية المركزية بالمنطقة الشرقية",
     "bidValue": "200",
@@ -233,13 +266,15 @@
     "inquiryDeadline": "2025-09-22",
     "bidDeadline": "2025-09-24",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -54,
-    "inquiryDeadlineDaysLeft": -56,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -57,
+    "inquiryDeadlineDaysLeft": -59,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "إدارة مشتريات الدمام – توريد انارة لقسم الصيانة (LED LIGHT E27 7000K, 4000K 220VOLTS,12WATTS.) بم ...",
     "publishDate": "2025-09-21",
+    "tenderOpenDays": 6,
     "orgName": "الشؤون الصحیة بوزارة الحرس الوطني",
     "subDeptName": "إدارة المشتريات  -  مستشفى الامام عبدالرحمن بن فيصل بالدمام",
     "bidValue": "200",
@@ -247,13 +282,15 @@
     "inquiryDeadline": "2025-09-24",
     "bidDeadline": "2025-09-26",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -52,
-    "inquiryDeadlineDaysLeft": -54,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -55,
+    "inquiryDeadlineDaysLeft": -57,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "توريد انارة لقطاعات حرس الحدود بمنطقة الحدود الشمالية بمناسبة اليوم الوطني الخامس والتسعون",
     "publishDate": "2025-09-17",
+    "tenderOpenDays": 4,
     "orgName": "حرس الحدود",
     "subDeptName": "قيادة حرس الحدود بمنطقة الحدود الشمالية",
     "bidValue": "200",
@@ -261,13 +298,15 @@
     "inquiryDeadline": "2025-09-18",
     "bidDeadline": "2025-09-20",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -58,
-    "inquiryDeadlineDaysLeft": -60,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -61,
+    "inquiryDeadlineDaysLeft": -63,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "تأمين وتوريد اعمدة انارة لبلدية الوجه",
     "publishDate": "2025-09-15",
+    "tenderOpenDays": 17,
     "orgName": "بلدية محافظة الوجه",
     "subDeptName": "بلدية محافظة الوجه",
     "bidValue": "700",
@@ -275,13 +314,15 @@
     "inquiryDeadline": "2025-09-25",
     "bidDeadline": "2025-10-01",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -47,
-    "inquiryDeadlineDaysLeft": -53,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -50,
+    "inquiryDeadlineDaysLeft": -56,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "صيانة انارة مركز الحقو والقرى التابعة لها",
     "publishDate": "2025-09-11",
+    "tenderOpenDays": 21,
     "orgName": "بلدية الحقو",
     "subDeptName": "بلدية الحقو",
     "bidValue": "1000",
@@ -289,13 +330,15 @@
     "inquiryDeadline": "2025-09-24",
     "bidDeadline": "2025-10-01",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -47,
-    "inquiryDeadlineDaysLeft": -54,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -50,
+    "inquiryDeadlineDaysLeft": -57,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "توريد كشافات انارة لمواقع الحوية والعثمانية وشدقم بقسم الظهران",
     "publishDate": "2025-09-11",
+    "tenderOpenDays": 5,
     "orgName": "قوات الدفاع الجوي",
     "subDeptName": "( قسم الظهران)  -  الادارة الهندسية والاشغال",
     "bidValue": "200",
@@ -303,13 +346,15 @@
     "inquiryDeadline": "2025-09-13",
     "bidDeadline": "2025-09-15",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -63,
-    "inquiryDeadlineDaysLeft": -65,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -66,
+    "inquiryDeadlineDaysLeft": -68,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "عملية توريد اعمدة انارة لبلدية محافظة الحجرة",
     "publishDate": "2025-09-08",
+    "tenderOpenDays": 17,
     "orgName": "بلدية الحجرة",
     "subDeptName": "بلدية محافظة الحجرة جديد",
     "bidValue": "1000",
@@ -317,13 +362,15 @@
     "inquiryDeadline": "2025-09-18",
     "bidDeadline": "2025-09-24",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -54,
-    "inquiryDeadlineDaysLeft": -60,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -57,
+    "inquiryDeadlineDaysLeft": -63,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "عقد اعادة تأهيل القواعد الخرسانية المتهالكة لأعمدة الانارة والإشارات الضوئية (المرحلة الأولى) ...",
     "publishDate": "2025-09-07",
+    "tenderOpenDays": 71,
     "orgName": "الادارة العامة لمشروع ينبع",
     "subDeptName": "مدينة ينبع الصناعية  -  إدارة العقود  -  قسم العقود",
     "bidValue": "1000",
@@ -331,13 +378,15 @@
     "inquiryDeadline": "2025-11-10",
     "bidDeadline": "2025-11-16",
     "bidDeadlineTime": "11:00",
-    "bidDeadlineDaysLeft": -1,
-    "inquiryDeadlineDaysLeft": -7,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -4,
+    "inquiryDeadlineDaysLeft": -10,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "توريد قطع غيار انارة الشوارع بقاعدة الملك فيصل البحرية بجدة",
     "publishDate": "2025-09-04",
+    "tenderOpenDays": 17,
     "orgName": "القوات البحرية",
     "subDeptName": "مركز التشغيل والصيانة بقاعدة الملك فيصل البحرية بجدة",
     "bidValue": "200",
@@ -345,13 +394,15 @@
     "inquiryDeadline": "2025-09-14",
     "bidDeadline": "2025-09-20",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -58,
-    "inquiryDeadlineDaysLeft": -64,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -61,
+    "inquiryDeadlineDaysLeft": -67,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "توريد انارة لمنظومة انتاج الخبر 60018433 الساحل الشرقي",
     "publishDate": "2025-08-30",
+    "tenderOpenDays": 17,
     "orgName": "الهيئة السعودية للمياه",
     "subDeptName": "شعبة مشتريات الساحل الشرقي",
     "bidValue": "500",
@@ -359,13 +410,15 @@
     "inquiryDeadline": "2025-09-09",
     "bidDeadline": "2025-09-15",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -63,
-    "inquiryDeadlineDaysLeft": -69,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -66,
+    "inquiryDeadlineDaysLeft": -72,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "استبدال وتأهيل إنارة جسر طريق التخصصي تقاطع طريق مكة المكرمة",
     "publishDate": "2025-08-28",
+    "tenderOpenDays": 32,
     "orgName": "أمانة منطقة الرياض",
     "subDeptName": "إدارة المشتريات والعقود بأمانة منطقة الرياض",
     "bidValue": "1000",
@@ -373,13 +426,15 @@
     "inquiryDeadline": "2025-09-09",
     "bidDeadline": "2025-09-28",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -50,
-    "inquiryDeadlineDaysLeft": -69,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -53,
+    "inquiryDeadlineDaysLeft": -72,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "صيانة كباين الانارة المتضررة من الامطار ببلدية الساحل",
     "publishDate": "2025-08-28",
+    "tenderOpenDays": 17,
     "orgName": "بلدية الساحل",
     "subDeptName": "الساحل",
     "bidValue": "200",
@@ -387,13 +442,15 @@
     "inquiryDeadline": "2025-09-07",
     "bidDeadline": "2025-09-13",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -65,
-    "inquiryDeadlineDaysLeft": -71,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -68,
+    "inquiryDeadlineDaysLeft": -74,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "تحسين وتطوير أعمدة الانارة بمرفق اصلاح السفن بقاعدة الملك فيصل البحرية بجدة",
     "publishDate": "2025-08-27",
+    "tenderOpenDays": 33,
     "orgName": "القوات البحرية",
     "subDeptName": "مركز التشغيل والصيانة بقاعدة الملك فيصل البحرية بجدة",
     "bidValue": "1000",
@@ -401,13 +458,15 @@
     "inquiryDeadline": "2025-09-27",
     "bidDeadline": "2025-09-28",
     "bidDeadlineTime": "08:00",
-    "bidDeadlineDaysLeft": -50,
-    "inquiryDeadlineDaysLeft": -51,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -53,
+    "inquiryDeadlineDaysLeft": -54,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "صيانة وتشغيل أعمدة الانارة بتبوك",
     "publishDate": "2025-08-27",
+    "tenderOpenDays": 33,
     "orgName": "أمانة منطقة تبوك",
     "subDeptName": "ادارة المناقصات",
     "bidValue": "5000",
@@ -415,13 +474,15 @@
     "inquiryDeadline": "2025-09-22",
     "bidDeadline": "2025-09-28",
     "bidDeadlineTime": "07:00",
-    "bidDeadlineDaysLeft": -50,
-    "inquiryDeadlineDaysLeft": -56,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -53,
+    "inquiryDeadlineDaysLeft": -59,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "صيانة الانارة بثرب والقرى التابعة لها",
     "publishDate": "2025-08-25",
+    "tenderOpenDays": 32,
     "orgName": "أمانة منطقة المدينة المنورة",
     "subDeptName": "بلدية ثرب",
     "bidValue": "3000",
@@ -429,13 +490,15 @@
     "inquiryDeadline": "2025-09-04",
     "bidDeadline": "2025-09-25",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -53,
-    "inquiryDeadlineDaysLeft": -74,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -56,
+    "inquiryDeadlineDaysLeft": -77,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "توريد وحدة انارة ارضية حسب الوصف وجودة عالية يلزم زيارة الموقع",
     "publishDate": "2025-08-25",
+    "tenderOpenDays": 4,
     "orgName": "مستشفى خميس مشيط",
     "subDeptName": "إدارة العقود والمشتريات شراء مباشر",
     "bidValue": "200",
@@ -443,13 +506,15 @@
     "inquiryDeadline": "2025-08-26",
     "bidDeadline": "2025-08-28",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -81,
-    "inquiryDeadlineDaysLeft": -83,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -84,
+    "inquiryDeadlineDaysLeft": -86,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "صيانة الشوارع والارصفة والانارة لمدينة سلوى والهجر التابعة لها",
     "publishDate": "2025-08-25",
+    "tenderOpenDays": 35,
     "orgName": "أمانة محافظة الأحساء",
     "subDeptName": "المناقصات 2019",
     "bidValue": "1000",
@@ -457,13 +522,15 @@
     "inquiryDeadline": "2025-09-23",
     "bidDeadline": "2025-09-28",
     "bidDeadlineTime": "09:00",
-    "bidDeadlineDaysLeft": -50,
-    "inquiryDeadlineDaysLeft": -55,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -53,
+    "inquiryDeadlineDaysLeft": -58,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "صيانة اعمدة الانارة ( صيانة كبائن الأنارة ) بلدية محافظة بيشة",
     "publishDate": "2025-08-24",
+    "tenderOpenDays": 17,
     "orgName": "بلدية محافظة بيشة",
     "subDeptName": "بلدية بيشه",
     "bidValue": "600",
@@ -471,13 +538,15 @@
     "inquiryDeadline": "2025-09-03",
     "bidDeadline": "2025-09-09",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -69,
-    "inquiryDeadlineDaysLeft": -75,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -72,
+    "inquiryDeadlineDaysLeft": -78,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "صيانة اعمال الانارة بمدينة محافظة بيش",
     "publishDate": "2025-08-24",
+    "tenderOpenDays": 44,
     "orgName": "بلدية محافطة بيش",
     "subDeptName": "بلدية محافطة بيش",
     "bidValue": "5500",
@@ -485,13 +554,15 @@
     "inquiryDeadline": "2025-09-27",
     "bidDeadline": "2025-10-06",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -42,
-    "inquiryDeadlineDaysLeft": -51,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -45,
+    "inquiryDeadlineDaysLeft": -54,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "توريد اعمدة وتمديدات اعمال انارة المخطط",
     "publishDate": "2025-08-24",
+    "tenderOpenDays": 17,
     "orgName": "بلدية المحاني",
     "subDeptName": "بلدية المحاني",
     "bidValue": "2000",
@@ -499,13 +570,15 @@
     "inquiryDeadline": "2025-09-03",
     "bidDeadline": "2025-09-09",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -69,
-    "inquiryDeadlineDaysLeft": -75,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -72,
+    "inquiryDeadlineDaysLeft": -78,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "توريد كشافات انارة - LIGHT FITTING LED - للهيئة السعودية للمياه لمنظومة انتاج حقل بالساحل الغربي",
     "publishDate": "2025-08-23",
+    "tenderOpenDays": 11,
     "orgName": "الهيئة السعودية للمياه",
     "subDeptName": "شعبة مشتريات الساحل الغربي",
     "bidValue": "200",
@@ -513,13 +586,15 @@
     "inquiryDeadline": "2025-08-31",
     "bidDeadline": "2025-09-02",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -76,
-    "inquiryDeadlineDaysLeft": -78,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -79,
+    "inquiryDeadlineDaysLeft": -81,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "توريد كشافات تعمل بالطاقة الشمسية",
     "publishDate": "2025-08-20",
+    "tenderOpenDays": 7,
     "orgName": "أمانة منطقة الرياض",
     "subDeptName": "بلدية الحيانية وبرك",
     "bidValue": "200",
@@ -527,13 +602,15 @@
     "inquiryDeadline": "2025-08-23",
     "bidDeadline": "2025-08-26",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -83,
-    "inquiryDeadlineDaysLeft": -86,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -86,
+    "inquiryDeadlineDaysLeft": -89,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   },
   {
     "title": "سفلتة وارصفة وانارة لبلدية محافظة العويقيله",
     "publishDate": "2025-08-20",
+    "tenderOpenDays": 21,
     "orgName": "أمانة منطقة الحدود الشمالية",
     "subDeptName": "بلدية محافظة العويقيلة بأمانة منطقة الحدود الشمالية",
     "bidValue": "1000",
@@ -541,22 +618,9 @@
     "inquiryDeadline": "2025-09-08",
     "bidDeadline": "2025-09-09",
     "bidDeadlineTime": "09:00",
-    "bidDeadlineDaysLeft": -69,
-    "inquiryDeadlineDaysLeft": -70,
-    "keyword": "انارة"
-  },
-  {
-    "title": "صيانة أعمدة الانارة وتوريد كيابل ( مرحلة ٢ )",
-    "publishDate": "2025-08-19",
-    "orgName": "بلدية البشائر",
-    "subDeptName": "البشائر",
-    "bidValue": "800",
-    "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=p9fW9XTckdwxWwGIxZQuCw==",
-    "inquiryDeadline": "2025-08-29",
-    "bidDeadline": "2025-09-04",
-    "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -74,
-    "inquiryDeadlineDaysLeft": -80,
-    "keyword": "انارة"
+    "bidDeadlineDaysLeft": -72,
+    "inquiryDeadlineDaysLeft": -73,
+    "keyword": "انارة",
+    "keywordEng": "lighting"
   }
 ]

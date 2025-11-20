@@ -2,6 +2,7 @@
   {
     "title": "دورة لغة الاشارة للمستوى المبتدئ والمتوسط والمتقدم تقام مرتين خلال عام",
     "publishDate": "2025-10-22",
+    "tenderOpenDays": 12,
     "orgName": "التجمع الصحي بالباحة",
     "subDeptName": "تجمع صحي الباحة  -  عقود و مشتريات",
     "bidValue": "200",
@@ -9,13 +10,15 @@
     "inquiryDeadline": "2025-10-30",
     "bidDeadline": "2025-11-02",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -15,
-    "inquiryDeadlineDaysLeft": -18,
-    "keyword": "اشارة"
+    "bidDeadlineDaysLeft": -18,
+    "inquiryDeadlineDaysLeft": -21,
+    "keyword": "اشارة",
+    "keywordEng": "signal"
   },
   {
     "title": "تقوية اشارة شبكة الراديو داخل مرافق الهيئة الملكية مع تطوير الشبكة الى رقمية وانشاء برج ومحطة راديو ...",
     "publishDate": "2025-09-22",
+    "tenderOpenDays": 38,
     "orgName": "الادارة العامة لمشروع ينبع",
     "subDeptName": "مدينة ينبع الصناعية  -  إدارة العقود  -  قسم العقود",
     "bidValue": "1000",
@@ -23,13 +26,15 @@
     "inquiryDeadline": "2025-10-12",
     "bidDeadline": "2025-10-29",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -19,
-    "inquiryDeadlineDaysLeft": -36,
-    "keyword": "اشارة"
+    "bidDeadlineDaysLeft": -22,
+    "inquiryDeadlineDaysLeft": -39,
+    "keyword": "اشارة",
+    "keywordEng": "signal"
   },
   {
     "title": "طلب تامين قطع غيار لعدد 6 اليات ستاير تعبوية اتصالات 4X4( مولد جانبي ) لوحدة الاشارة بوزارة الحرس ال ...",
     "publishDate": "2025-09-09",
+    "tenderOpenDays": 9,
     "orgName": "وكالة الحرس الوطني القطاع الغربي",
     "subDeptName": "ادارة المشتريات القطاع الغربي",
     "bidValue": "200",
@@ -37,13 +42,15 @@
     "inquiryDeadline": "2025-09-17",
     "bidDeadline": "2025-09-17",
     "bidDeadlineTime": "10:00",
-    "bidDeadlineDaysLeft": -61,
-    "inquiryDeadlineDaysLeft": -61,
-    "keyword": "اشارة"
+    "bidDeadlineDaysLeft": -64,
+    "inquiryDeadlineDaysLeft": -64,
+    "keyword": "اشارة",
+    "keywordEng": "signal"
   },
   {
     "title": "طلب تامين عدد 14 بطارية حسب البيان المرفق لوحدة الاشارة ومكتب وزير الحرس الوطني بالقطاع الغربي",
     "publishDate": "2025-09-07",
+    "tenderOpenDays": 7,
     "orgName": "وكالة الحرس الوطني القطاع الغربي",
     "subDeptName": "ادارة المشتريات القطاع الغربي",
     "bidValue": "200",
@@ -51,8 +58,9 @@
     "inquiryDeadline": "2025-09-11",
     "bidDeadline": "2025-09-13",
     "bidDeadlineTime": "09:59",
-    "bidDeadlineDaysLeft": -65,
-    "inquiryDeadlineDaysLeft": -67,
-    "keyword": "اشارة"
+    "bidDeadlineDaysLeft": -68,
+    "inquiryDeadlineDaysLeft": -70,
+    "keyword": "اشارة",
+    "keywordEng": "signal"
   }
 ]

@@ -2,7 +2,7 @@ import puppeteer from "puppeteer";
 import fs from "fs";
 import { Parser } from "json2csv";
 
-import keywords from "./keywords.js"; // your keywords array
+import keywords from "./keywords.js"; // your keywords object
 
 const parser = new Parser(); // move parser definition here
 
@@ -90,7 +90,8 @@ async function scraperWithFilter () {
 
         // Loop through keywords
         // const keywords = ["ذكي", "health", "school", "road", "مدينة ذكية", "مرور", "اصلاح"] ;
-        for (const keyword of keywords) {
+        // for (const keyword of keywords) {
+        for (const [keyword, englishKeyword] of Object.entries(keywords)) {
             if (searchBox) {
                 console.log(`Filling search box with keyword: ${keyword}`);
                 await searchBox.click({ clickCount: 3 }); // Select all existing text
@@ -99,8 +100,8 @@ async function scraperWithFilter () {
 
                 // Type slowly like a human
                 for (const char of keyword) {
-                await searchBox.type(char);
-                await delay(200 + Math.random() * 300); // 200–500ms per keystroke
+                    await searchBox.type(char);
+                    await delay(200 + Math.random() * 300); // 200–500ms per keystroke
                 }
 
                 await delay(1000 + Math.random() * 1000); // wait 1–2s after typing
@@ -117,7 +118,7 @@ async function scraperWithFilter () {
                     // Get the number of tenders found for this keyword
                     const tenderElements = await page.$$('.col-12.col-md-12.mb-4');
                     console.log(`✅ Found ${tenderElements.length} tenders for keyword: ${keyword}`);
-                    await tenderData(keyword, page, allTenders); // Call the function to scrape tenders for this keyword
+                    await tenderData(keyword, page, allTenders, englishKeyword); // Call the function to scrape tenders for this keyword
 
                     // Wait before going to next keyword (3–6s)
                     console.log("⏳ Waiting before next keyword...");
@@ -129,7 +130,7 @@ async function scraperWithFilter () {
         }
         // After all keywords are processed, save the info in the final file.
         if (allTenders.length > 0) {
-            const fields = ['title','orgName' , 'subDeptName', 'bidValue' , 'publishDate', 'detailUrl', 'inquiryDeadline', 'bidDeadline', 'bidDeadlineTime','bidDeadlineDaysLeft', 'inquiryDeadlineDaysLeft','keyword'];
+            const fields = ['title','orgName' , 'subDeptName', 'bidValue' , 'publishDate', 'detailUrl', 'inquiryDeadline', 'bidDeadline', 'bidDeadlineTime','bidDeadlineDaysLeft', 'inquiryDeadlineDaysLeft','keyword', 'keywordEng', 'tenderOpenDays'];
             const finalParser = new Parser({ fields });
             const allTendersMap = new Map();
             allTenders.forEach(t => {
@@ -211,7 +212,7 @@ async function scraperWithFilter () {
 
             // Save recent tenders if any
             if (recentTenders.length > 0) {
-            const fields = ['title','orgName' , 'subDeptName', 'bidValue' , 'publishDate', 'detailUrl', 'inquiryDeadline', 'bidDeadline', 'bidDeadlineTime', 'bidDeadlineDaysLeft','inquiryDeadlineDaysLeft' ,'keyword'];
+            const fields = ['title','orgName' , 'subDeptName', 'bidValue' , 'publishDate', 'detailUrl', 'inquiryDeadline', 'bidDeadline', 'bidDeadlineTime', 'bidDeadlineDaysLeft','inquiryDeadlineDaysLeft' ,'keyword', 'tenderOpenDays'];
                 const parserRecent = new Parser({ fields });
 
                 fs.writeFileSync('tenderData/tenders_recent.json', JSON.stringify(recentTenders, null, 2));
@@ -240,7 +241,7 @@ async function scraperWithFilter () {
 
 };
 
-const tenderData = async (keyword, page, allTenders) => {
+const tenderData = async (keyword, page, allTenders, englishKeyword) => {
     
     //Declare starting page as 1 and set a default ending page as 1000
     let currentPage = 1;
@@ -267,7 +268,7 @@ const tenderData = async (keyword, page, allTenders) => {
         */
 
 
-        const tenders = await page.evaluate((kw) => {
+        const tenders = await page.evaluate((kw, kwEng) => {
             return Array.from(document.querySelectorAll('.col-12.col-md-12.mb-4')).map(t => {
                 const title = t.querySelector('a')?.innerText.trim() || '';
                 const publishDate = t.querySelector('div.col-6 span')?.innerText.trim() || '';
@@ -319,6 +320,7 @@ const tenderData = async (keyword, page, allTenders) => {
 
                 // Here we will compare the inquiryDeadLine and bidDeadline to get the number of days left for each tender
                 
+                let tenderOpenDays = '';
                 let bidDeadlineDaysLeft = '';
                 let inquiryDeadlineDaysLeft = '';
 
@@ -333,6 +335,15 @@ const tenderData = async (keyword, page, allTenders) => {
                     if (!isNaN(bidDeadlineCombined)) {
                         const diffMs = bidDeadlineCombined - today;
                         bidDeadlineDaysLeft = Math.ceil(diffMs / (1000 * 60 * 60 * 24));
+
+                        // Tender open days can be calculated as days between publishDate and bidDeadline
+                        const publishDateObj = new Date(publishDate);
+                        if (!isNaN(publishDateObj)) {
+                            const openDiffMs = bidDeadlineCombined - publishDateObj;
+                            tenderOpenDays = Math.ceil(openDiffMs / (1000 * 60 * 60 * 24));
+                        } else {
+                            tenderOpenDays = '';
+                        }
                     } else {
                         bidDeadlineDaysLeft = null;
                         console.warn("⚠️ Invalid bidDeadline:", bidDeadline, bidDeadlineTime);
@@ -351,9 +362,9 @@ const tenderData = async (keyword, page, allTenders) => {
                 }
 
 
-                return { title, publishDate, orgName , subDeptName, bidValue, detailUrl, inquiryDeadline, bidDeadline, bidDeadlineTime, bidDeadlineDaysLeft, inquiryDeadlineDaysLeft ,keyword: kw };
+                return { title, publishDate, tenderOpenDays, orgName , subDeptName, bidValue, detailUrl, inquiryDeadline, bidDeadline, bidDeadlineTime, bidDeadlineDaysLeft, inquiryDeadlineDaysLeft ,keyword: kw, keywordEng: kwEng};
             });
-        },keyword);
+        },keyword, englishKeyword);
 
 
 
@@ -365,7 +376,7 @@ const tenderData = async (keyword, page, allTenders) => {
             // fs.writeFileSync(`tenderData/tenders_temp.json`, JSON.stringify(allTendersForKeyword, null, 2));
 
             // Always define fields to avoid errors if array is empty (even though here it's not empty)
-            const fields = ['title','orgName' , 'subDeptName', 'bidValue' , 'publishDate', 'detailUrl', 'inquiryDeadline', 'bidDeadline', 'bidDeadlineTime', 'bidDeadlineDaysLeft', 'inquiryDeadlineDaysLeft', 'keyword'];
+            const fields = ['title','orgName' , 'subDeptName', 'bidValue' , 'publishDate', 'detailUrl', 'inquiryDeadline', 'bidDeadline', 'bidDeadlineTime', 'bidDeadlineDaysLeft', 'inquiryDeadlineDaysLeft', 'keyword', 'keywordEng', 'tenderOpenDays'];
             const parserWithFields = new Parser({ fields });
             fs.writeFileSync(`tenderData/eachKeywordTender/tenders_${keyword}.csv`, '\uFEFF' + parserWithFields.parse(allTendersForKeyword), "utf8");
             // fs.writeFileSync(`tenderData/tenders_temp.csv`, '\uFEFF' + parserWithFields.parse(allTendersForKeyword), "utf8");

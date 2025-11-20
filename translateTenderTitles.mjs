@@ -21,21 +21,23 @@ async function translateTenderTitles() {
   for (const t of tenders) {
     try {
       const translatedText = await translate(t.title, { from: "ar", to: "en" });
-      const keywordEng = await translate(t.keyword, { from: "ar", to: "en" });
+      // const keywordEng = await translate(t.keyword, { from: "ar", to: "en" });
       const organizationEng = await translate(t.orgName, { from: "ar", to: "en" });
       const organizationSubDeptEng = await translate(t.subDeptName, { from: "ar", to: "en" });
 
       translatedTenders.push({
-        "Title (English Translation)": translatedText.text,
-        "Organization (English Translation)": organizationEng.text,
-        "Organization Sub Department (English Translation)": organizationSubDeptEng.text,
-        "Tender Value": t.bidValue,
+        "Title (English)": translatedText.text,
+        "Organization (English)": organizationEng.text,
+        "Organization Sub Department (English)": organizationSubDeptEng.text,
+        "Tender Doc Purc Value": t.bidValue,
         "Published Date": t.publishDate,
+        "Tender Open Days": t.tenderOpenDays,
         "Inquiry Deadline": t.inquiryDeadline,
         "Days Left to Send Inquiries": t.inquiryDeadlineDaysLeft,
         "Bid Deadline Date and Time": `${t.bidDeadline} @ ${t.bidDeadlineTime}`,
         "Days left Until Bid Closing": t.bidDeadlineDaysLeft,
-        "Keyword (English Translation)": keywordEng.text,
+        // "Keyword (English)": keywordEng.text,
+        "Keyword (English)": t.keywordEng,
         "Detail Url": t.detailUrl,
         "Title (Arabic)": t.title,
         keywords: t.keyword
@@ -50,7 +52,7 @@ async function translateTenderTitles() {
 
       translatedTenders.push({
         "Title (Arabic)": t.title,
-        "Title (English Translation)": t.title, // fallback
+        "Title (English)": t.title, // fallback
         "Published Date": t.publishDate,
         "Inquiry Deadline": t.inquiryDeadline,
         "Bid Deadline": t.bidDeadline,
