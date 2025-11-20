@@ -12,10 +12,12 @@
   "dependencies": {
     "@google-cloud/translate": "^9.3.0",
     "@vitalets/google-translate-api": "^9.2.1",
+    "express": "^5.1.0",
     "fs": "^0.0.1-security",
     "google-translate-api-x": "^10.7.2",
     "googleapis": "^165.0.0",
     "json2csv": "^6.0.0-alpha.2",
+    "node-cron": "^4.2.1",
     "node-fetch": "^2.7.0",
     "nodemailer": "^7.0.10",
     "openai": "^6.8.1",

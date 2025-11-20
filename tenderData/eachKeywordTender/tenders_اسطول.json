@@ -2,33 +2,57 @@
   {
     "title": "تحسين وتطوير عدد 4 دورات مياة بمبنى قيادة الاسطول الغربي بقاعدة الملك فيصل البحرية بجدة",
     "publishDate": "2025-11-06",
+    "orgName": "القوات البحرية",
+    "subDeptName": "مركز التشغيل والصيانة بقاعدة الملك فيصل البحرية بجدة",
+    "bidValue": "200",
     "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=GNu5fdRIsRARJnXSZD05vA==",
     "inquiryDeadline": "2025-11-16",
     "bidDeadline": "2025-11-22",
+    "bidDeadlineTime": "09:59",
+    "bidDeadlineDaysLeft": 5,
+    "inquiryDeadlineDaysLeft": -1,
     "keyword": "اسطول"
   },
   {
     "title": "توريد أجهزة تتبع المركبات إدارة الاسطول شاملة الخدمات المدارة والصيانة",
     "publishDate": "2025-10-06",
+    "orgName": "القوات الخاصة للأمن البيئي",
+    "subDeptName": "قيادة القوات الخاصة للأمن البيئي",
+    "bidValue": "1000",
     "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=TXyEEh5FcocyV5Uz4TRKZA==",
     "inquiryDeadline": "2025-10-24",
     "bidDeadline": "2025-11-06",
+    "bidDeadlineTime": "09:59",
+    "bidDeadlineDaysLeft": -11,
+    "inquiryDeadlineDaysLeft": -24,
     "keyword": "اسطول"
   },
   {
     "title": "توريد وتركيب نظام التزويد المستمر للطاقة (UPS) وقواطع فرعية بمركز عمليات الاسطول الغربي بقاعدة الملك ...",
     "publishDate": "2025-09-02",
+    "orgName": "القوات البحرية",
+    "subDeptName": "مركز التشغيل والصيانة بقاعدة الملك فيصل البحرية بجدة",
+    "bidValue": "500",
     "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=PkJxV9z5Plq1eEhPW9MM%20Q==",
     "inquiryDeadline": "2025-09-24",
     "bidDeadline": "2025-09-25",
+    "bidDeadlineTime": "08:00",
+    "bidDeadlineDaysLeft": -53,
+    "inquiryDeadlineDaysLeft": -54,
     "keyword": "اسطول"
   },
   {
     "title": "توريد وتركيب مولدات طوارئ بمبنى قيادة الاسطول الغربي بقاعدة الملك فيصل البحرية بجدة",
     "publishDate": "2025-09-02",
+    "orgName": "القوات البحرية",
+    "subDeptName": "مركز التشغيل والصيانة بقاعدة الملك فيصل البحرية بجدة",
+    "bidValue": "1500",
     "detailUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=ctUcQUrv4JcavVxUnyTejA==",
     "inquiryDeadline": "2025-09-24",
     "bidDeadline": "2025-09-25",
+    "bidDeadlineTime": "08:00",
+    "bidDeadlineDaysLeft": -53,
+    "inquiryDeadlineDaysLeft": -54,
     "keyword": "اسطول"
   }
 ]

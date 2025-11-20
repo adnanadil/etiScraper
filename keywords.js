@@ -8,7 +8,7 @@ const keywords = [
 "اشارة" , 
 "اشارات" , 
 "انارة" , 
-"تقاطع"
+"تقاطع", 
 ]
 
 module.exports = keywords;
