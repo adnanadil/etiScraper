@@ -1,10 +1,17 @@
 import puppeteer from "puppeteer";
 import fs from "fs";
 import { Parser } from "json2csv";
+import { Storage } from "@google-cloud/storage";
 
-import keywords from "./keywords.js"; // your keywords object
+import keywords from "./keywords.mjs"; // your keywords object
 
 const parser = new Parser(); // move parser definition here
+
+const storage = new Storage();
+const bucketName = process.env.GCLOUD_STORAGE_BUCKET || "etimad-tenders-data";
+const bucket = storage.bucket(bucketName);
+const SENT_FILE = "tenderData/tenders_sent.json";
+const GCS_FILE = "tenders_sent.json"; // file in GCS to track sent tenders
 
 
 async function scraperWithFilter () {
@@ -137,6 +144,7 @@ async function scraperWithFilter () {
                 allTendersMap.set(t.detailUrl, t);
             });
 
+    
             const allTendersUnique = Array.from(allTendersMap.values());
             fs.writeFileSync("tenderData/tenders_all.csv", '\uFEFF' + finalParser.parse(allTendersUnique), "utf8");
             fs.writeFileSync("tenderData/tenders_all.json", JSON.stringify(allTendersUnique, null, 2));
@@ -165,23 +173,44 @@ async function scraperWithFilter () {
                     }
                 }   
             })
+
+            const ACTIVE_TENDERS_JSON = 'tenderData/tenders_all_active.json';
+            const ACTIVE_TENDERS_CSV = 'tenderData/tenders_all_active.csv';
             
             const allTendersNotExpired = Array.from(activeTendersMap.values());
-            fs.writeFileSync("tenderData/tenders_all_active.csv", '\uFEFF' + finalParser.parse(allTendersNotExpired), "utf8");
-            fs.writeFileSync("tenderData/tenders_all_active.json", JSON.stringify(allTendersNotExpired, null, 2));
+            fs.writeFileSync(ACTIVE_TENDERS_CSV, '\uFEFF' + finalParser.parse(allTendersNotExpired), "utf8");
+            fs.writeFileSync(ACTIVE_TENDERS_JSON, JSON.stringify(allTendersNotExpired, null, 2));
             console.log("✅ Scraping complete! Total tenders scraped:", allTendersNotExpired.length);
 
 
             //Create another JSON and CSV file with current and previous data combined
             // The logic is to read the previous file if it exists, then get those element which match current and previous date
             // --- Create recent tenders JSON and CSV (today + yesterday) ---
-            const SENT_FILE = 'tenderData/tenders_sent.json';
+            // const SENT_FILE = 'tenderData/tenders_sent.json';
+
+            // Download sent file from GCS if it exists, else create empty
+            const gcsSentFile = bucket.file(GCS_FILE);
+            const [exists] = await gcsSentFile.exists();
+
+            if (exists) {
+                await gcsSentFile.download({ destination: SENT_FILE });
+                console.log("✅ Downloaded sent tenders file from GCS");
+            } else {
+                console.log("ℹ️ No sent file found in GCS. Creating fresh one.");
+                fs.writeFileSync(SENT_FILE, "[]", "utf8");
+            }
+
+            // console.log("✅ Downloaded sent tenders file from GCS");
+            // const SENT_FILE = 'tenderData/tenders_sent.json';
+
 
             // Load already sent tenders
-            let sentTenders = [];
-            if (fs.existsSync(SENT_FILE)) {
-                sentTenders = JSON.parse(fs.readFileSync(SENT_FILE));
-            }
+            // let sentTenders = [];
+            // if (fs.existsSync(SENT_FILE)) {
+            //     sentTenders = JSON.parse(fs.readFileSync(SENT_FILE));
+            // }
+
+            let sentTenders = JSON.parse(fs.readFileSync(SENT_FILE));
 
             // Got today's before and getting yesterday's dates and converitng to in YYYY-MM-DD format
             const yesterday = new Date();
@@ -197,6 +226,9 @@ async function scraperWithFilter () {
                 !sentTenders.some(sent => sent.detailUrl === t.detailUrl)
             );
 
+            // console.log(`ℹ️ Found ${recentTendersRaw.length} tenders from today or yesterday before deduplication`);
+            // console.log(`ℹ️ Found ${recentTendersRaw} tenders from today or yesterday before deduplication`);
+
             // Remove duplicates by detailUrl
             const recentTendersMap = new Map();
             recentTendersRaw.forEach(t => {
@@ -211,20 +243,34 @@ async function scraperWithFilter () {
             console.log(`ℹ️ Found ${recentTenders.length} tenders from today or yesterday (excluding already sent)`);
 
             // Save recent tenders if any
+            
+            
             if (recentTenders.length > 0) {
-            const fields = ['title','orgName' , 'subDeptName', 'bidValue' , 'publishDate', 'detailUrl', 'inquiryDeadline', 'bidDeadline', 'bidDeadlineTime', 'bidDeadlineDaysLeft','inquiryDeadlineDaysLeft' ,'keyword', 'tenderOpenDays'];
+                const fields = ['title','orgName' , 'subDeptName', 'bidValue' , 'publishDate', 'detailUrl', 'inquiryDeadline', 'bidDeadline', 'bidDeadlineTime', 'bidDeadlineDaysLeft','inquiryDeadlineDaysLeft' ,'keyword', 'tenderOpenDays'];
                 const parserRecent = new Parser({ fields });
-
                 fs.writeFileSync('tenderData/tenders_recent.json', JSON.stringify(recentTenders, null, 2));
                 fs.writeFileSync('tenderData/tenders_recent.csv', '\uFEFF' + parserRecent.parse(recentTenders), "utf8");
 
                 // Add these tenders to sent list to avoid resending tomorrow
                 recentTenders.forEach(t => sentTenders.push(t));
+                // fs.writeFileSync(SENT_FILE, JSON.stringify(sentTenders, null, 2));
+
+                // await storage.bucket(bucketName).upload(SENT_FILE, {
+                //     destination: GCS_FILE,
+                // });
+
                 fs.writeFileSync(SENT_FILE, JSON.stringify(sentTenders, null, 2));
+
+                await bucket.upload(SENT_FILE, { destination: GCS_FILE });
+                console.log("✅ Uploaded updated sent tenders file back to GCS");
 
                 console.log("💾 Saved recent tenders (today + yesterday) to JSON and CSV, updated sent tenders");
             } else {
-                console.log("ℹ️ No recent tenders found for today or yesterday (or all already sent)");
+                console.log("ℹ️ No recent tenders found for today or yesterday (or all already sent)!!");
+                const fields = ['title','orgName' , 'subDeptName', 'bidValue' , 'publishDate', 'detailUrl', 'inquiryDeadline', 'bidDeadline', 'bidDeadlineTime', 'bidDeadlineDaysLeft','inquiryDeadlineDaysLeft' ,'keyword', 'tenderOpenDays'];
+                const parserRecent = new Parser({ fields });
+                fs.writeFileSync("tenderData/tenders_recent.json", JSON.stringify([], null, 2));
+                fs.writeFileSync("tenderData/tenders_recent.csv", "\uFEFF" + parserRecent.parse([]), "utf8");
             }
             
 

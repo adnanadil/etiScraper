@@ -3,19 +3,40 @@ import fs from "fs";
 import { translate } from "google-translate-api-x"; // npm install google-translate-api-x
 import { parse } from "json2csv";
 
-// const INPUT_FILE = "tenderData/tenders_recent.json";
 // const INPUT_FILE = "tenderData/tenders_all.json";
-const INPUT_FILE = "tenderData/tenders_all_active.json";
-const OUTPUT_FILE = "tenders_translated.json";
-const OUTPUT_CSV = "tenders_translated.csv";
+// const INPUT_FILE = "tenderData/tenders_all_active.json";
+const INPUT_FILE = "tenderData/tenders_recent.json";
+const OUTPUT_FILE = "tenderData/translated/recent_tenders.json";
+const OUTPUT_CSV = "tenderData/translated/recent_tenders.csv";
+
+const INPUT_FILE_AllActive = "tenderData/tenders_all_active.json";
+const OUTPUT_FILE_AllActive = "tenderData/translated/all_tenders.json";
+const OUTPUT_CSV_AllActive = "tenderData/translated/all_tenders.csv";
 
 async function translateTenderTitles() {
-  if (!fs.existsSync(INPUT_FILE)) {
-    console.log("❌ Input file not found:", INPUT_FILE);
+
+  // For recent tenders
+  await translateAndSaveTenders(INPUT_FILE, OUTPUT_FILE, OUTPUT_CSV);
+
+  // For all active tenders
+  await translateAndSaveTenders(INPUT_FILE_AllActive, OUTPUT_FILE_AllActive, OUTPUT_CSV_AllActive); 
+}
+
+async function translateAndSaveTenders(inputFile, outputFile, outputCsv) {
+  if (!fs.existsSync(inputFile)) {
+    console.log("❌ Input file not found:", inputFile);
     return;
   }
 
-  const tenders = JSON.parse(fs.readFileSync(INPUT_FILE, "utf-8"));
+  const tenders = JSON.parse(fs.readFileSync(inputFile, "utf-8"));
+  if (!Array.isArray(tenders) || tenders.length === 0) {
+    console.log("ℹ️ No tenders to translate (empty array). Writing empty outputs.");
+
+    fs.writeFileSync(outputFile, JSON.stringify([], null, 2), "utf8");
+    fs.writeFileSync(outputCsv, "\uFEFF", "utf8"); // empty CSV with BOM
+    return;
+  }
+
   const translatedTenders = [];
 
   for (const t of tenders) {
@@ -63,16 +84,16 @@ async function translateTenderTitles() {
   }
 
   // Save JSON
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(translatedTenders, null, 2));
-  console.log(`💾 Saved translated tenders to ${OUTPUT_FILE}`);
+  fs.writeFileSync(outputFile, JSON.stringify(translatedTenders, null, 2));
+  console.log(`💾 Saved translated tenders to ${outputFile}`);
 
   // Save CSV
   try {
     const csv = parse(translatedTenders);
     // fs.writeFileSync(OUTPUT_CSV, csv);
-    fs.writeFileSync(OUTPUT_CSV, '\uFEFF' + csv, "utf8");
+    fs.writeFileSync(outputCsv, '\uFEFF' + csv, "utf8");
 
-    console.log(`💾 Saved translated tenders to ${OUTPUT_CSV}`);
+    console.log(`💾 Saved translated tenders to ${outputCsv}`);
   } catch (err) {
     console.error("❌ Failed to create CSV:", err.message);
   }

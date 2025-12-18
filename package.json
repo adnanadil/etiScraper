@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
+    "start": "node server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/storage": "^7.18.0",
     "@google-cloud/translate": "^9.3.0",
     "@vitalets/google-translate-api": "^9.2.1",
     "express": "^5.1.0",
