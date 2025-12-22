@@ -2,8 +2,15 @@ import fs from "fs";
 import { google } from "googleapis";
 
 // Paths
-const CREDENTIALS_PATH = "credentials.json";
-const TOKEN_PATH = "token.json";
+// const CREDENTIALS_PATH = "credentials.json";
+// const TOKEN_PATH = "token.json";
+
+// Fallback allows local testing
+const CREDENTIALS_PATH =
+  process.env.GMAIL_CREDENTIALS_PATH || "/secrets/gmail-credentials/credentials.json";
+
+const TOKEN_PATH =
+  process.env.GMAIL_TOKEN_PATH || "/secrets/gmail-token/token.json";
 
 // Recent (today/yesterday)
 const RECENT_JSON = "tenderData/translated/recent_tenders.json";

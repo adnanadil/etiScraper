@@ -11,7 +11,7 @@ import sendEmail from "./sendEmail.mjs";
 const isLocal = process.env.NODE_ENV !== "production";
 
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8080;
 
 
 // Email recipients
@@ -57,7 +57,7 @@ app.get("/run", async (req, res) => {
 });
 
 app.get("/tenders", (req, res) => {
-  const FILE_PATH = "tenders_translated.json";
+  const FILE_PATH = "tenderData/translated/all_tenders_translated.json";
 
   // Check if file exists
   if (!fs.existsSync(FILE_PATH)) {
@@ -144,4 +144,4 @@ if (process.env.ENABLE_LOCAL_CRON === "true") {
 }
 
 // Start Express server
-app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+app.listen(PORT, "0.0.0.0", () => console.log(`🚀 Server running on port ${PORT}`));

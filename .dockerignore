@@ -1,0 +1,27 @@
+# Old files and directories to ignore in Docker builds
+# node_modules
+# .git
+# .gitignore
+# npm-debug.log
+# .DS_Store
+
+
+# Node stuff
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Git
+.git
+.gitignore
+
+# Env files (don’t bake secrets)
+.env
+.env.*
+
+# GCP credentials / tokens (IMPORTANT)
+**/application_default_credentials.json
+**/*service-account*.json
+**/*credentials*.json
+**/.config/gcloud
+**/gcloud
