@@ -11,6 +11,9 @@ const INPUT_FILE_AllActive = "tenderData/tenders_all_active.json";
 const OUTPUT_FILE_AllActive = "tenderData/translated/all_tenders.json";
 const OUTPUT_CSV_AllActive = "tenderData/translated/all_tenders.csv";
 
+// ✅ small helper to avoid needless translation calls
+const hasArabic = (s) => /[؀-ۿ]/.test(String(s || ""));
+
 async function translateTenderTitles() {
   await translateAndSaveTenders(INPUT_FILE, OUTPUT_FILE, OUTPUT_CSV);
   await translateAndSaveTenders(INPUT_FILE_AllActive, OUTPUT_FILE_AllActive, OUTPUT_CSV_AllActive);
@@ -34,18 +37,40 @@ async function translateAndSaveTenders(inputFile, outputFile, outputCsv) {
 
   for (const t of tenders) {
     try {
-      const titleEn = t.title ? (await translate(t.title, { from: "ar", to: "en" })).text : "";
-      const orgEn = t.orgName ? (await translate(t.orgName, { from: "ar", to: "en" })).text : "";
-      const subDeptEn = t.subDeptName ? (await translate(t.subDeptName, { from: "ar", to: "en" })).text : "";
+      const titleEn =
+        t.title && hasArabic(t.title) ? (await translate(t.title, { from: "ar", to: "en" })).text : (t.title ?? "");
+      const orgEn =
+        t.orgName && hasArabic(t.orgName) ? (await translate(t.orgName, { from: "ar", to: "en" })).text : (t.orgName ?? "");
+      const subDeptEn =
+        t.subDeptName && hasArabic(t.subDeptName)
+          ? (await translate(t.subDeptName, { from: "ar", to: "en" })).text
+          : (t.subDeptName ?? "");
 
-      // ✅ Stable JSON schema (camelCase keys)
+      // ✅ NEW: translate the new fields
+      const tenderTypeEn =
+        t.tenderType && hasArabic(t.tenderType)
+          ? (await translate(t.tenderType, { from: "ar", to: "en" })).text
+          : (t.tenderType ?? "");
+
+      const coreActivitiesEn =
+        t.coreActivities && hasArabic(t.coreActivities)
+          ? (await translate(t.coreActivities, { from: "ar", to: "en" })).text
+          : (t.coreActivities ?? "");
+
       translatedTenders.push({
+        // existing
         titleAr: t.title ?? "",
         titleEn,
         orgNameAr: t.orgName ?? "",
         orgNameEn: orgEn,
         subDeptNameAr: t.subDeptName ?? "",
         subDeptNameEn: subDeptEn,
+
+        // ✅ NEW fields (Arabic + English)
+        tenderTypeAr: t.tenderType ?? "",
+        tenderTypeEn,
+        coreActivitiesAr: t.coreActivities ?? "",
+        coreActivitiesEn,
 
         bidValue: t.bidValue ?? "",
         publishDate: t.publishDate ?? "",
@@ -56,7 +81,9 @@ async function translateAndSaveTenders(inputFile, outputFile, outputCsv) {
 
         bidDeadline: t.bidDeadline ?? "",
         bidDeadlineTime: t.bidDeadlineTime ?? "",
-        bidDeadlineDateTime: t.bidDeadline ? `${t.bidDeadline}${t.bidDeadlineTime ? ` @ ${t.bidDeadlineTime}` : ""}` : "",
+        bidDeadlineDateTime: t.bidDeadline
+          ? `${t.bidDeadline}${t.bidDeadlineTime ? ` @ ${t.bidDeadlineTime}` : ""}`
+          : "",
         bidDeadlineDaysLeft: t.bidDeadlineDaysLeft ?? "",
 
         keyword: t.keyword ?? "",
@@ -67,12 +94,10 @@ async function translateAndSaveTenders(inputFile, outputFile, outputCsv) {
 
       console.log(`✅ Translated: ${t.title} -> ${titleEn}`);
 
-      // small delay
       await new Promise((r) => setTimeout(r, 300));
     } catch (err) {
       console.error("❌ Translation failed for:", t.title, err.message);
 
-      // ✅ Fallback keeps same schema
       translatedTenders.push({
         titleAr: t.title ?? "",
         titleEn: t.title ?? "",
@@ -80,6 +105,12 @@ async function translateAndSaveTenders(inputFile, outputFile, outputCsv) {
         orgNameEn: t.orgName ?? "",
         subDeptNameAr: t.subDeptName ?? "",
         subDeptNameEn: t.subDeptName ?? "",
+
+        // ✅ NEW fields fallback
+        tenderTypeAr: t.tenderType ?? "",
+        tenderTypeEn: t.tenderType ?? "",
+        coreActivitiesAr: t.coreActivities ?? "",
+        coreActivitiesEn: t.coreActivities ?? "",
 
         bidValue: t.bidValue ?? "",
         publishDate: t.publishDate ?? "",
@@ -90,7 +121,9 @@ async function translateAndSaveTenders(inputFile, outputFile, outputCsv) {
 
         bidDeadline: t.bidDeadline ?? "",
         bidDeadlineTime: t.bidDeadlineTime ?? "",
-        bidDeadlineDateTime: t.bidDeadline ? `${t.bidDeadline}${t.bidDeadlineTime ? ` @ ${t.bidDeadlineTime}` : ""}` : "",
+        bidDeadlineDateTime: t.bidDeadline
+          ? `${t.bidDeadline}${t.bidDeadlineTime ? ` @ ${t.bidDeadlineTime}` : ""}`
+          : "",
         bidDeadlineDaysLeft: t.bidDeadlineDaysLeft ?? "",
 
         keyword: t.keyword ?? "",
@@ -101,14 +134,15 @@ async function translateAndSaveTenders(inputFile, outputFile, outputCsv) {
     }
   }
 
-  // Save JSON
   fs.writeFileSync(outputFile, JSON.stringify(translatedTenders, null, 2), "utf8");
   console.log(`💾 Saved translated tenders to ${outputFile}`);
 
-  // Save CSV with pretty headers (labels)
   try {
     const fields = [
       { label: "Title (English)", value: "titleEn" },
+      { label: "Tender Type (English)", value: "tenderTypeEn" },            // ✅ NEW
+      { label: "Core Activity (English)", value: "coreActivitiesEn" },      // ✅ NEW
+
       { label: "Organization (English)", value: "orgNameEn" },
       { label: "Organization Sub Department (English)", value: "subDeptNameEn" },
 
@@ -127,6 +161,8 @@ async function translateAndSaveTenders(inputFile, outputFile, outputCsv) {
 
       { label: "Detail Url", value: "detailUrl" },
 
+      { label: "Tender Type (Arabic)", value: "tenderTypeAr" },             // ✅ NEW
+      { label: "Core Activity (Arabic)", value: "coreActivitiesAr" },       // ✅ NEW
       { label: "Title (Arabic)", value: "titleAr" },
     ];
 

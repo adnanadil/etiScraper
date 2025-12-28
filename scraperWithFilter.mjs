@@ -16,19 +16,41 @@ const bucket = storage.bucket(bucketName);
 const SENT_FILE = "tenderData/tenders_sent.json";
 const GCS_FILE = "tenders_sent.json"; // file in GCS to track sent tenders
 
+// Detect Cloud Run (Cloud Run always sets K_SERVICE)
+const isCloudRun = !!process.env.K_SERVICE;
+
 async function scraperWithFilter() {
-  const browser = await puppeteer.launch({
-    executablePath: "/usr/bin/chromium",
-    headless: true,
-    args: [
-      "--no-sandbox",
-      "--disable-setuid-sandbox",
-      "--disable-dev-shm-usage",
-      "--disable-gpu",
-      "--no-zygote",
-      "--single-process",
-    ],
-  });
+//   const browser = await puppeteer.launch({
+//     executablePath: "/usr/bin/chromium",
+//     headless: true,
+//     args: [
+//       "--no-sandbox",
+//       "--disable-setuid-sandbox",
+//       "--disable-dev-shm-usage",
+//       "--disable-gpu",
+//       "--no-zygote",
+//       "--single-process",
+//     ],
+//   });
+    const browser = await puppeteer.launch(
+        isCloudRun
+        ? {
+            executablePath: "/usr/bin/chromium",
+            headless: true,
+            args: [
+                "--no-sandbox",
+                "--disable-setuid-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-gpu",
+                "--no-zygote",
+                "--single-process",
+            ],
+            }
+        : {
+            // ✅ Local (Mac): use Puppeteer bundled Chromium
+            headless: true,
+            }
+    );
 
   const page = await browser.newPage();
 
@@ -208,6 +230,8 @@ async function scraperWithFilter() {
       "keyword",
       "keywordEng",
       "tenderOpenDays",
+      "tenderType",
+      "coreActivities",
     ];
     const finalParser = new Parser({ fields });
 
@@ -332,6 +356,8 @@ async function scraperWithFilter() {
         "inquiryDeadlineDaysLeft",
         "keyword",
         "tenderOpenDays",
+        "tenderType",
+        "coreActivities",
       ];
       const parserRecent = new Parser({ fields });
       fs.writeFileSync("tenderData/tenders_recent.json", JSON.stringify([], null, 2));
@@ -386,6 +412,27 @@ const tenderData = async (keyword, page, allTenders, englishKeyword) => {
         const bidValueContainer = t.querySelector(".text-center.mb-3 span");
         const rawBidValue = bidValueContainer?.innerText.trim() || "";
         const bidValue = rawBidValue.includes("مجانا") ? "Free" : rawBidValue.replace(/[^\d]/g, "");
+
+
+
+        const clean = (s) => (s || "").replace(/\s+/g, " ").trim();
+
+        // ✅ Tender type badge (شراء مباشر / منافسة عامة / etc.)
+        const tenderType =
+        clean(t.querySelector("div.col-6.text-left span.badge")?.textContent) || "";
+
+        // ✅ Core activity: find label == "النشاط الأساسي", take its span
+        let coreActivities = "";
+        const blocks = Array.from(t.querySelectorAll("div.col-12.pt-2"));
+        for (const b of blocks) {
+            const label = clean(b.querySelector("label")?.textContent);
+            const value = clean(b.querySelector("span")?.textContent);
+            if (label === "النشاط الأساسي") {
+                coreActivities = value;
+                break;
+            }
+        }
+
 
         const dateDivs = t.querySelectorAll(".tender-date .col-12.col-md-3");
 
@@ -452,6 +499,8 @@ const tenderData = async (keyword, page, allTenders, englishKeyword) => {
           bidDeadlineTime,
           bidDeadlineDaysLeft,
           inquiryDeadlineDaysLeft,
+          tenderType,        // ✅ NEW
+          coreActivities,    // ✅ NEW
           keyword: kw,
           keywordEng: kwEng,
         };
