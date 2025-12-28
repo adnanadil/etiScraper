@@ -17,6 +17,7 @@
     "@google-cloud/storage": "^7.18.0",
     "@google-cloud/translate": "^9.3.0",
     "@vitalets/google-translate-api": "^9.2.1",
+    "exceljs": "^4.4.0",
     "express": "^5.1.0",
     "fs": "^0.0.1-security",
     "google-translate-api-x": "^10.7.2",

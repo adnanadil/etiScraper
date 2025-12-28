@@ -1,10 +1,8 @@
 // translateTenderGoogleX.mjs
 import fs from "fs";
-import { translate } from "google-translate-api-x"; // npm install google-translate-api-x
+import { translate } from "google-translate-api-x";
 import { parse } from "json2csv";
 
-// const INPUT_FILE = "tenderData/tenders_all.json";
-// const INPUT_FILE = "tenderData/tenders_all_active.json";
 const INPUT_FILE = "tenderData/tenders_recent.json";
 const OUTPUT_FILE = "tenderData/translated/recent_tenders.json";
 const OUTPUT_CSV = "tenderData/translated/recent_tenders.csv";
@@ -14,12 +12,8 @@ const OUTPUT_FILE_AllActive = "tenderData/translated/all_tenders.json";
 const OUTPUT_CSV_AllActive = "tenderData/translated/all_tenders.csv";
 
 async function translateTenderTitles() {
-
-  // For recent tenders
   await translateAndSaveTenders(INPUT_FILE, OUTPUT_FILE, OUTPUT_CSV);
-
-  // For all active tenders
-  await translateAndSaveTenders(INPUT_FILE_AllActive, OUTPUT_FILE_AllActive, OUTPUT_CSV_AllActive); 
+  await translateAndSaveTenders(INPUT_FILE_AllActive, OUTPUT_FILE_AllActive, OUTPUT_CSV_AllActive);
 }
 
 async function translateAndSaveTenders(inputFile, outputFile, outputCsv) {
@@ -31,9 +25,8 @@ async function translateAndSaveTenders(inputFile, outputFile, outputCsv) {
   const tenders = JSON.parse(fs.readFileSync(inputFile, "utf-8"));
   if (!Array.isArray(tenders) || tenders.length === 0) {
     console.log("ℹ️ No tenders to translate (empty array). Writing empty outputs.");
-
     fs.writeFileSync(outputFile, JSON.stringify([], null, 2), "utf8");
-    fs.writeFileSync(outputCsv, "\uFEFF", "utf8"); // empty CSV with BOM
+    fs.writeFileSync(outputCsv, "\uFEFF", "utf8");
     return;
   }
 
@@ -41,64 +34,108 @@ async function translateAndSaveTenders(inputFile, outputFile, outputCsv) {
 
   for (const t of tenders) {
     try {
-      const translatedText = await translate(t.title, { from: "ar", to: "en" });
-      // const keywordEng = await translate(t.keyword, { from: "ar", to: "en" });
-      const organizationEng = await translate(t.orgName, { from: "ar", to: "en" });
-      const organizationSubDeptEng = await translate(t.subDeptName, { from: "ar", to: "en" });
+      const titleEn = t.title ? (await translate(t.title, { from: "ar", to: "en" })).text : "";
+      const orgEn = t.orgName ? (await translate(t.orgName, { from: "ar", to: "en" })).text : "";
+      const subDeptEn = t.subDeptName ? (await translate(t.subDeptName, { from: "ar", to: "en" })).text : "";
 
+      // ✅ Stable JSON schema (camelCase keys)
       translatedTenders.push({
-        "Title (English)": translatedText.text,
-        "Organization (English)": organizationEng.text,
-        "Organization Sub Department (English)": organizationSubDeptEng.text,
-        "Tender Doc Purc Value": t.bidValue,
-        "Published Date": t.publishDate,
-        "Tender Open Days": t.tenderOpenDays,
-        "Inquiry Deadline": t.inquiryDeadline,
-        "Days Left to Send Inquiries": t.inquiryDeadlineDaysLeft,
-        "Bid Deadline Date and Time": `${t.bidDeadline} @ ${t.bidDeadlineTime}`,
-        "Days left Until Bid Closing": t.bidDeadlineDaysLeft,
-        // "Keyword (English)": keywordEng.text,
-        "Keyword (English)": t.keywordEng,
-        "Detail Url": t.detailUrl,
-        "Title (Arabic)": t.title,
-        keywords: t.keyword
+        titleAr: t.title ?? "",
+        titleEn,
+        orgNameAr: t.orgName ?? "",
+        orgNameEn: orgEn,
+        subDeptNameAr: t.subDeptName ?? "",
+        subDeptNameEn: subDeptEn,
+
+        bidValue: t.bidValue ?? "",
+        publishDate: t.publishDate ?? "",
+        tenderOpenDays: t.tenderOpenDays ?? "",
+
+        inquiryDeadline: t.inquiryDeadline ?? "",
+        inquiryDeadlineDaysLeft: t.inquiryDeadlineDaysLeft ?? "",
+
+        bidDeadline: t.bidDeadline ?? "",
+        bidDeadlineTime: t.bidDeadlineTime ?? "",
+        bidDeadlineDateTime: t.bidDeadline ? `${t.bidDeadline}${t.bidDeadlineTime ? ` @ ${t.bidDeadlineTime}` : ""}` : "",
+        bidDeadlineDaysLeft: t.bidDeadlineDaysLeft ?? "",
+
+        keyword: t.keyword ?? "",
+        keywordEng: t.keywordEng ?? "",
+
+        detailUrl: t.detailUrl ?? "",
       });
 
-      console.log(`✅ Translated: ${t.title} -> ${translatedText.text}`);
+      console.log(`✅ Translated: ${t.title} -> ${titleEn}`);
 
-      // Small delay to avoid overloading free service
-      await new Promise(resolve => setTimeout(resolve, 300));
+      // small delay
+      await new Promise((r) => setTimeout(r, 300));
     } catch (err) {
       console.error("❌ Translation failed for:", t.title, err.message);
 
+      // ✅ Fallback keeps same schema
       translatedTenders.push({
-        "Title (Arabic)": t.title,
-        "Title (English)": t.title, // fallback
-        "Published Date": t.publishDate,
-        "Inquiry Deadline": t.inquiryDeadline,
-        "Bid Deadline": t.bidDeadline,
-        "Detail Url": t.detailUrl,
-        keywords: t.keyword
+        titleAr: t.title ?? "",
+        titleEn: t.title ?? "",
+        orgNameAr: t.orgName ?? "",
+        orgNameEn: t.orgName ?? "",
+        subDeptNameAr: t.subDeptName ?? "",
+        subDeptNameEn: t.subDeptName ?? "",
+
+        bidValue: t.bidValue ?? "",
+        publishDate: t.publishDate ?? "",
+        tenderOpenDays: t.tenderOpenDays ?? "",
+
+        inquiryDeadline: t.inquiryDeadline ?? "",
+        inquiryDeadlineDaysLeft: t.inquiryDeadlineDaysLeft ?? "",
+
+        bidDeadline: t.bidDeadline ?? "",
+        bidDeadlineTime: t.bidDeadlineTime ?? "",
+        bidDeadlineDateTime: t.bidDeadline ? `${t.bidDeadline}${t.bidDeadlineTime ? ` @ ${t.bidDeadlineTime}` : ""}` : "",
+        bidDeadlineDaysLeft: t.bidDeadlineDaysLeft ?? "",
+
+        keyword: t.keyword ?? "",
+        keywordEng: t.keywordEng ?? "",
+
+        detailUrl: t.detailUrl ?? "",
       });
     }
   }
 
   // Save JSON
-  fs.writeFileSync(outputFile, JSON.stringify(translatedTenders, null, 2));
+  fs.writeFileSync(outputFile, JSON.stringify(translatedTenders, null, 2), "utf8");
   console.log(`💾 Saved translated tenders to ${outputFile}`);
 
-  // Save CSV
+  // Save CSV with pretty headers (labels)
   try {
-    const csv = parse(translatedTenders);
-    // fs.writeFileSync(OUTPUT_CSV, csv);
-    fs.writeFileSync(outputCsv, '\uFEFF' + csv, "utf8");
+    const fields = [
+      { label: "Title (English)", value: "titleEn" },
+      { label: "Organization (English)", value: "orgNameEn" },
+      { label: "Organization Sub Department (English)", value: "subDeptNameEn" },
 
+      { label: "Tender Doc Purc Value", value: "bidValue" },
+      { label: "Published Date", value: "publishDate" },
+      { label: "Tender Open Days", value: "tenderOpenDays" },
+
+      { label: "Inquiry Deadline", value: "inquiryDeadline" },
+      { label: "Days Left to Send Inquiries", value: "inquiryDeadlineDaysLeft" },
+
+      { label: "Bid Deadline Date and Time", value: "bidDeadlineDateTime" },
+      { label: "Days left Until Bid Closing", value: "bidDeadlineDaysLeft" },
+
+      { label: "Keyword (English)", value: "keywordEng" },
+      { label: "keywords", value: "keyword" },
+
+      { label: "Detail Url", value: "detailUrl" },
+
+      { label: "Title (Arabic)", value: "titleAr" },
+    ];
+
+    const csv = parse(translatedTenders, { fields });
+    fs.writeFileSync(outputCsv, "\uFEFF" + csv, "utf8");
     console.log(`💾 Saved translated tenders to ${outputCsv}`);
   } catch (err) {
     console.error("❌ Failed to create CSV:", err.message);
   }
 }
 
-// translateTenders();
-
-export default translateTenderTitles
+export default translateTenderTitles;
